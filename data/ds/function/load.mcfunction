@@ -12,3 +12,12 @@ scoreboard players set #ds-twenty ds-var 20
 # Jumper cooldowns
 scoreboard objectives add ds-jumper-normal dummy
 scoreboard objectives add ds-jumper-ultimate dummy
+
+# Conductor's Baton cooldowns
+scoreboard objectives add ds-conductors-baton-normal dummy
+scoreboard objectives add ds-conductors-baton-ultimate dummy
+
+# Calamity cooldowns
+scoreboard objectives add ds-calamity-normal dummy
+scoreboard objectives add ds-calamity-ultimate dummy
+scoreboard objectives add ds-calamity-ultimate-attack dummy

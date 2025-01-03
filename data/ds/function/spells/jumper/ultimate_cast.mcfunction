@@ -1,6 +1,10 @@
 # Ultimate - High Jump
+
+# Set score if needed
+execute unless score @s ds-jumper-ultimate matches 0.. run scoreboard players set @s ds-jumper-ultimate 0
+
 scoreboard players operation @s ds-reg1 = @s ds-jumper-ultimate
-execute if score @s ds-reg1 > #ds-tick ds-var run return run function ds:cooldown
+execute if score @s ds-reg1 > #ds-tick ds-var run return run function ds:lib/cooldown
 
 particle explosion ~ ~ ~ 1 1 1 0 5
 playsound entity.generic.explode master @a ~ ~ ~
