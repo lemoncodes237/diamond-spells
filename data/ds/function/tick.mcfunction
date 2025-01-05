@@ -12,3 +12,7 @@ execute as @e[type=armor_stand,tag=calamity_proj] if predicate ds:on_ground run 
 execute as @a if predicate ds:death_shower at @s run function ds:spells/calamity/aim_ultimate
 # Calamity Ultimate Attack
 execute as @e[type=marker,tag=calamity_ultimate_attack] at @s run function ds:spells/calamity/prepare_ultimate_attack
+
+# Galaxy Ultimate
+execute as @e[tag=galaxy_meteor_location,type=marker] at @s run function ds:spells/galaxy/meteor_circle
+execute as @e[tag=galaxy_meteor,type=block_display] at @s run function ds:spells/galaxy/move_to_impact
