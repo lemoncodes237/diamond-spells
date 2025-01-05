@@ -21,3 +21,7 @@ scoreboard objectives add ds-conductors-baton-ultimate dummy
 scoreboard objectives add ds-calamity-normal dummy
 scoreboard objectives add ds-calamity-ultimate dummy
 scoreboard objectives add ds-calamity-ultimate-attack dummy
+
+# Mining Fever cooldowns
+scoreboard objectives add ds-mining-fever-normal dummy
+scoreboard objectives add ds-mining-fever-ultimate dummy
