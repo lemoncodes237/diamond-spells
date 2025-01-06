@@ -4,7 +4,10 @@
 summon marker ~ ~ ~ {Tags:["direction"]}
 # execute the below function as the marker entity, so it doesn't get lost from being unloaded
 # also run positioned at the world zero point
-execute as @e[tag=direction,limit=1] positioned 0.0 0.0 0.0 run function ds:spells/calamity/get_motion
+execute if score @s ds-ascension matches 0..1 run execute as @e[tag=direction,limit=1] positioned 0.0 0.0 0.0 run function ds:spells/calamity/get_motion
+
+# Ascension 2: Push
+execute if score @s ds-ascension matches 2.. run execute as @e[tag=direction,limit=1] positioned 0.0 0.0 0.0 run function ds:spells/calamity/get_faster_motion
 
 # summon the projectile entity. Again, it might make sense to summon the projectile at the players eyes
 # and in front of them, so we'll do that in this example

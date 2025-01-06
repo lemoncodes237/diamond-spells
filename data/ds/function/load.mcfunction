@@ -2,6 +2,7 @@ tellraw @a "Spells Loaded"
 
 scoreboard objectives add ds-spell_cast used:carrot_on_a_stick
 scoreboard objectives add ds-var dummy
+scoreboard objectives add ds-ascension dummy
 
 # Registers
 scoreboard objectives add ds-reg1 dummy

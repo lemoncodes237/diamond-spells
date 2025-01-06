@@ -8,8 +8,17 @@ execute if score @s ds-reg1 > #ds-tick ds-var run return run function ds:lib/coo
 
 particle block_crumble{block_state:{Name:"stone"}} ~ ~ ~ 0.5 0.5 0.5 0 30
 playsound entity.elder_guardian.curse master @a ~ ~ ~
-effect give @s haste 20 7
+execute if score @s ds-ascension matches 0..1 run effect give @s haste 20 1
+# Ascension 2: Diamond Rush
+execute if score @s ds-ascension matches 2.. run effect give @s haste 20 7
+
 effect give @s speed 20 0
+
+# Ascension 4: Quick Start
+execute if score @s ds-ascension matches 4.. run fill ~-3 ~ ~-3 ~3 ~3 ~3 air replace #ds:stones
+
+# Ascension 5: Burning Bright
+execute if score @s ds-ascension matches 5.. run give @s torch 16
 
 scoreboard players operation @s ds-mining-fever-ultimate = #ds-tick ds-var
 # 1 minute cooldown

@@ -7,10 +7,10 @@ scoreboard players operation @s ds-reg1 = @s ds-galaxy-ultimate
 execute if score @s ds-reg1 > #ds-tick ds-var run return run function ds:lib/cooldown
 
 # No entity to use meteor on
-execute positioned ^ ^ ^5 unless entity @e[type=!item,tag=!galaxy_caster,distance=..30] run return run title @s actionbar "There is no enemy to use Meteor on nearby!"
+execute positioned ^ ^ ^5 unless entity @e[type=#ds:enemies,tag=!galaxy_caster,distance=..30] run return run title @s actionbar "There is no enemy to use Meteor on nearby!"
 
 # Find the entity to use meteor on
-execute positioned ^ ^ ^5 as @e[type=!item,tag=!galaxy_caster,sort=nearest,limit=1,distance=..30] at @s run summon marker ~ ~ ~ {Tags:["galaxy_meteor_location"]}
+execute positioned ^ ^ ^5 as @e[type=#ds:enemies,tag=!galaxy_caster,sort=nearest,limit=1,distance=..30] at @s run summon marker ~ ~ ~ {Tags:["galaxy_meteor_location"]}
 execute as @e[tag=galaxy_meteor_location,sort=nearest,limit=1] at @s run playsound entity.ender_dragon.growl master @a ~ ~ ~
 playsound entity.ender_dragon.growl master @s
 

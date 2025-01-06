@@ -14,7 +14,7 @@ execute anchored eyes run particle electric_spark ^-2 ^ ^2 0.5 0.1 0.5 0 10
 
 playsound entity.player.attack.sweep master @a ~ ~ ~ 1 0.3
 
-execute positioned ^ ^ ^3 as @e[type=!item,tag=!galaxy_caster,distance=..3] run damage @s 7 player_attack by @a[tag=galaxy_caster,sort=nearest,limit=1]
+execute positioned ^ ^ ^3 as @e[type=!#ds:immune,tag=!galaxy_caster,distance=..3] run damage @s 7 player_attack by @a[tag=galaxy_caster,sort=nearest,limit=1]
 
 scoreboard players operation @s ds-galaxy-normal = #ds-tick ds-var
 # 1.5 second cooldown

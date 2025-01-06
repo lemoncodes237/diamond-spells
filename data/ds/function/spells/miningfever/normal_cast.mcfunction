@@ -12,3 +12,6 @@ execute anchored eyes positioned ^ ^ ^1 run function ds:spells/miningfever/laser
 scoreboard players operation @s ds-mining-fever-normal = #ds-tick ds-var
 # 1.5 second cooldown
 scoreboard players add @s ds-mining-fever-normal 30
+
+# Ascension 3: Haste
+execute if score @s ds-ascension matches 3.. run scoreboard players remove @s ds-mining-fever-normal 10
