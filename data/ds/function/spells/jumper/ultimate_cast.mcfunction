@@ -12,7 +12,7 @@ playsound entity.generic.explode master @a ~ ~ ~
 # Ascension 0-4 damage
 execute if score @s ds-ascension matches 0..4 as @e[distance=..5,tag=!jumper_caster,type=!#ds:immune] run damage @s 10 player_attack by @a[tag=jumper_caster,limit=1,sort=nearest]
 # Ascension 5: Stronger Jump
-execute if score @s ds-ascension matches 5.. as @e[distance=..5,tag=!jumper_caster,type=!#ds:immune] run damage @s 15 player_attack by @a[tag=jumper_caster,limit=1,sort=nearest]
+execute if score @s ds-ascension matches 5.. as @e[distance=..5,tag=!jumper_caster,type=!#ds:immune] run damage @s 12 player_attack by @a[tag=jumper_caster,limit=1,sort=nearest]
 
 
 effect give @s levitation 1 43 true
