@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#ds:enemies"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "ds:spells/galaxy/reduce_cooldown"
+  }
+}

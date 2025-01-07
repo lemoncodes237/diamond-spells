@@ -15,10 +15,15 @@ execute as @e[tag=galaxy_meteor_location,sort=nearest,limit=1] at @s run playsou
 playsound entity.ender_dragon.growl master @s
 
 # Summon the meteor
-summon block_display ~ ~60 ~ {Tags:["galaxy_meteor"],block_state:{Name:"magma_block"},transformation:{left_rotation:[95f,62f,81f,1f],right_rotation:[0f,0f,0f,1f],translation:[-4f,-4f,-4f],scale:[8f,8f,8f]}}
+execute if score @s ds-ascension matches 0 run summon block_display ~ ~60 ~ {Tags:["galaxy_meteor"],block_state:{Name:"magma_block"},transformation:{left_rotation:[95f,62f,81f,1f],right_rotation:[0f,0f,0f,1f],translation:[-4f,-4f,-4f],scale:[8f,8f,8f]}}
+# Ascension 1: Meteorite
+execute if score @s ds-ascension matches 1..4 run summon block_display ~ ~60 ~ {Tags:["galaxy_meteor","galaxy_meteorite"],block_state:{Name:"magma_block"},transformation:{left_rotation:[95f,62f,81f,1f],right_rotation:[0f,0f,0f,1f],translation:[-4f,-4f,-4f],scale:[8f,8f,8f]}}
+# Ascension 5: Heavy Impact
+execute if score @s ds-ascension matches 5.. run summon block_display ~ ~60 ~ {Tags:["galaxy_meteor","galaxy_meteorite","galaxy_heavy"],block_state:{Name:"magma_block"},transformation:{left_rotation:[95f,62f,81f,1f],right_rotation:[0f,0f,0f,1f],translation:[-4f,-4f,-4f],scale:[8f,8f,8f]}}
+execute if score @s ds-ascension matches 5.. run effect give @s strength 5
 
 # Invincible until impact
-effect give @s resistance 2 255 true
+effect give @s resistance 3 255 true
 
 scoreboard players operation @s ds-galaxy-ultimate = #ds-tick ds-var
 # 40 second cooldown
