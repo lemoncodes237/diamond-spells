@@ -30,3 +30,7 @@ scoreboard objectives add ds-mining-fever-ultimate dummy
 # Galaxy cooldowns
 scoreboard objectives add ds-galaxy-normal dummy
 scoreboard objectives add ds-galaxy-ultimate dummy
+
+# Nullification cooldowns
+scoreboard objectives add ds-nullification-normal dummy
+scoreboard objectives add ds-nullification-ultimate dummy

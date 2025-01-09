@@ -10,3 +10,4 @@ execute if score @s ds-var matches 2 run return run function ds:spells/conductor
 execute if score @s ds-var matches 3 run return run function ds:spells/calamity/cast
 execute if score @s ds-var matches 4 run return run function ds:spells/miningfever/cast
 execute if score @s ds-var matches 5 run return run function ds:spells/galaxy/cast
+execute if score @s ds-var matches 6 run return run function ds:spells/nullification/cast
