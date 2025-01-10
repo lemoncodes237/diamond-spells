@@ -11,8 +11,7 @@ execute positioned ^ ^ ^5 unless entity @e[type=#ds:enemies,tag=!galaxy_caster,d
 
 # Find the entity to use meteor on
 execute positioned ^ ^ ^5 as @e[type=#ds:enemies,tag=!galaxy_caster,sort=nearest,limit=1,distance=..30] at @s run summon marker ~ ~ ~ {Tags:["galaxy_meteor_location"]}
-execute as @e[tag=galaxy_meteor_location,sort=nearest,limit=1] at @s run playsound entity.ender_dragon.growl master @a ~ ~ ~
-playsound entity.ender_dragon.growl master @s
+playsound entity.ender_dragon.growl master @a ~ ~ ~
 
 # Summon the meteor
 execute if score @s ds-ascension matches 0 run summon block_display ~ ~60 ~ {Tags:["galaxy_meteor"],block_state:{Name:"magma_block"},transformation:{left_rotation:[95f,62f,81f,1f],right_rotation:[0f,0f,0f,1f],translation:[-4f,-4f,-4f],scale:[8f,8f,8f]}}

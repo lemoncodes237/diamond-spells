@@ -1,0 +1,2 @@
+execute as @a[predicate=ds:invincible,sort=nearest,limit=1] run scoreboard players remove @s ds-crashlanding-normal 20
+execute as @a[predicate=ds:invincible,sort=nearest,limit=1] run scoreboard players remove @s ds-crashlanding-ultimate 20

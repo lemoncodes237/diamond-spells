@@ -1,0 +1,2 @@
+execute as @s unless entity @e[distance=..1,type=marker,tag=fallingsword_location] at @s run tp @s ~ ~-2 ~
+execute if entity @e[distance=..1,type=marker,tag=fallingsword_location] run function ds:spells/crashlanding/crash_detection

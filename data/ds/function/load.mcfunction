@@ -3,6 +3,7 @@ tellraw @a "Spells Loaded"
 scoreboard objectives add ds-spell_cast used:carrot_on_a_stick
 scoreboard objectives add ds-var dummy
 scoreboard objectives add ds-ascension dummy
+scoreboard objectives add ds-jump minecraft.custom:jump
 
 # Registers
 scoreboard objectives add ds-reg1 dummy
@@ -34,3 +35,7 @@ scoreboard objectives add ds-galaxy-ultimate dummy
 # Nullification cooldowns
 scoreboard objectives add ds-nullification-normal dummy
 scoreboard objectives add ds-nullification-ultimate dummy
+
+# Crash Landing cooldowns
+scoreboard objectives add ds-crashlanding-normal dummy
+scoreboard objectives add ds-crashlanding-ultimate dummy

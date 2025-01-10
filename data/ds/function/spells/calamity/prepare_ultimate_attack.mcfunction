@@ -1,4 +1,4 @@
-scoreboard players add @s ds-var 1
+scoreboard players add @s ds-var 2
 
 execute if score @s ds-var matches 10 run function ds:spells/calamity/alchemy_circle_yellow
 execute if score @s ds-var matches 10 run playsound block.respawn_anchor.charge master @a ~ ~ ~ 1 0.7

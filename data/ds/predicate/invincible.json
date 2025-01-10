@@ -5,8 +5,10 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-          "vehicle": {
-            "nbt": "{Tags:[\"calamity_proj\"]}"
+          "effects": {
+            "minecraft:resistance": {
+              "amplifier": 255
+            }
           }
         }
       }
