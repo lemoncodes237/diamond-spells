@@ -39,3 +39,7 @@ scoreboard objectives add ds-nullification-ultimate dummy
 # Crash Landing cooldowns
 scoreboard objectives add ds-crashlanding-normal dummy
 scoreboard objectives add ds-crashlanding-ultimate dummy
+
+# Ember Core cooldowns
+scoreboard objectives add ds-embercore-normal dummy
+scoreboard objectives add ds-embercore-ultimate dummy

@@ -1,0 +1,11 @@
+{
+    "values":[
+      "minecraft:air",
+      "minecraft:cave_air",
+      "#minecraft:saplings",
+      "minecraft:void_air",
+      "minecraft:short_grass",
+      "minecraft:tall_grass",
+      "minecraft:snow"
+    ]
+  }

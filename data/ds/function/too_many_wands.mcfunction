@@ -1,0 +1,1 @@
+title @s actionbar "You can only hold up to 5 wands at a time!"

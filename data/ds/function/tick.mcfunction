@@ -15,3 +15,6 @@ execute as @e[tag=galaxy_meteor,type=block_display] at @s run function ds:spells
 execute as @e[tag=sword_drop,type=item_display] at @s run function ds:spells/crashlanding/sword_drop
 # Crash Landing Ultimate
 execute as @a[tag=crashlanding_in_ultimate] at @s run function ds:spells/crashlanding/in_ultimate
+
+# Ember Core Arrow detection
+execute as @e[type=arrow,tag=embercore_flame] at @s run function ds:spells/embercore/set_ground_ablaze
