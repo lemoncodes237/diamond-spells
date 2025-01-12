@@ -18,3 +18,6 @@ execute as @a[tag=crashlanding_in_ultimate] at @s run function ds:spells/crashla
 
 # Ember Core Arrow detection
 execute as @e[type=arrow,tag=embercore_flame] at @s run function ds:spells/embercore/set_ground_ablaze
+
+# Size Shifter Normal Attack
+execute as @e[type=block_display,tag=growth_orb] at @s run function ds:spells/sizeshifter/grow_orb

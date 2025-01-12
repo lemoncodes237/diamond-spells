@@ -9,3 +9,6 @@ execute as @a if predicate ds:adagio at @s run particle note ~ ~ ~ 2 1 2 0.1 20
 execute as @a if entity @s[tag=calamity_ultimate] unless predicate ds:death_shower run function ds:spells/calamity/end_ultimate
 # Clear fall damage multiplier
 execute as @a if entity @s[tag=calamity_normal] if predicate ds:on_ground run function ds:spells/calamity/clear_fall_damage_inv
+
+# End of Size Shifter Ultimate
+execute as @a[tag=sizeshifter_ultimate] unless predicate ds:shrink at @s run function ds:spells/sizeshifter/end_ultimate

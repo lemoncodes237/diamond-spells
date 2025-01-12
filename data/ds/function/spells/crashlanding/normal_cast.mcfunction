@@ -16,8 +16,6 @@ execute as @e[tag=fallingsword_location,sort=nearest,limit=1,distance=..30,tag=!
 execute if score @s ds-ascension matches 3.. as @e[tag=fallingsword_location,sort=nearest,limit=1,distance=..30] at @s positioned ~ ~20 ~ run tag @e[type=item_display,tag=sword_drop,distance=..2] add higher_dmg
 execute if score @s ds-ascension matches 5.. as @e[tag=fallingsword_location,sort=nearest,limit=1,distance=..30] at @s positioned ~ ~20 ~ run tag @e[type=item_display,tag=sword_drop,distance=..2] add ascension_5_sword
 
-effect give @s resistance 1 255
-
 scoreboard players operation @s ds-crashlanding-normal = #ds-tick ds-var
 # 5 second cooldown
 scoreboard players add @s ds-crashlanding-normal 100

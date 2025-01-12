@@ -9,6 +9,9 @@ scoreboard objectives add ds-jump minecraft.custom:jump
 scoreboard objectives add ds-reg1 dummy
 scoreboard objectives add ds-reg2 dummy
 scoreboard objectives add ds-reg3 dummy
+scoreboard objectives add ds-reg4 dummy
+scoreboard objectives add ds-reg5 dummy
+
 scoreboard players set #ds-twenty ds-var 20
 
 # Jumper cooldowns
@@ -43,3 +46,7 @@ scoreboard objectives add ds-crashlanding-ultimate dummy
 # Ember Core cooldowns
 scoreboard objectives add ds-embercore-normal dummy
 scoreboard objectives add ds-embercore-ultimate dummy
+
+# Size Shifter cooldowns
+scoreboard objectives add ds-sizeshifter-normal dummy
+scoreboard objectives add ds-sizeshifter-ultimate dummy
