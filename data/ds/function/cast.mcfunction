@@ -18,3 +18,4 @@ execute if score @s ds-var matches 6 run return run function ds:spells/nullifica
 execute if score @s ds-var matches 7 run return run function ds:spells/crashlanding/cast
 execute if score @s ds-var matches 8 run return run function ds:spells/embercore/cast
 execute if score @s ds-var matches 9 run return run function ds:spells/sizeshifter/cast
+execute if score @s ds-var matches 10 run return run function ds:spells/oceanicjudge/cast

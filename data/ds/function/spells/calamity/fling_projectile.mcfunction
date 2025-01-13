@@ -12,7 +12,7 @@ execute if score @s ds-ascension matches 2.. run execute as @e[tag=direction,lim
 # summon the projectile entity. Again, it might make sense to summon the projectile at the players eyes
 # and in front of them, so we'll do that in this example
 # Change this to invisible item in the future.
-execute anchored eyes run summon armor_stand ^ ^ ^ {Tags:["calamity_proj"],Invulnerable:true,Invisible:true,Small:true}
+execute anchored eyes run summon armor_stand ^ ^ ^ {Tags:["calamity_proj"],Invulnerable:true,Invisible:true,Small:true,DisabledSlots:4144959}
 # store the previously stored Motion into the projectile entity
 data modify entity @e[tag=calamity_proj,limit=1,sort=nearest] Motion set from storage ds:storage Motion
 ride @s mount @e[tag=calamity_proj,sort=nearest,limit=1]

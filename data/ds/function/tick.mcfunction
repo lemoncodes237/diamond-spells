@@ -21,3 +21,5 @@ execute as @e[type=arrow,tag=embercore_flame] at @s run function ds:spells/ember
 
 # Size Shifter Normal Attack
 execute as @e[type=block_display,tag=growth_orb] at @s run function ds:spells/sizeshifter/grow_orb
+
+execute as @e[type=armor_stand,tag=oceanicjudge_wave] at @s run particle angry_villager ~ ~ ~ 0 0 0 0 2

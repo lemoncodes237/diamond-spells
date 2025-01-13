@@ -50,3 +50,7 @@ scoreboard objectives add ds-embercore-ultimate dummy
 # Size Shifter cooldowns
 scoreboard objectives add ds-sizeshifter-normal dummy
 scoreboard objectives add ds-sizeshifter-ultimate dummy
+
+# Size Shifter cooldowns
+scoreboard objectives add ds-oceanicjudge-normal dummy
+scoreboard objectives add ds-oceanicjudge-ultimate dummy
