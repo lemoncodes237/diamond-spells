@@ -1,0 +1,1 @@
+$damage @s $(dmg) player_attack by @a[tag=sahd_caster,distance=..10,limit=1]

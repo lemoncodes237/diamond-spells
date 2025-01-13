@@ -54,3 +54,9 @@ scoreboard objectives add ds-sizeshifter-ultimate dummy
 # Size Shifter cooldowns
 scoreboard objectives add ds-oceanicjudge-normal dummy
 scoreboard objectives add ds-oceanicjudge-ultimate dummy
+
+# Sahd cooldowns
+scoreboard objectives add ds-sahd-normal dummy
+scoreboard objectives add ds-sahd-ultimate dummy
+# Strength tracker
+scoreboard objectives add ds-sahd-strength dummy

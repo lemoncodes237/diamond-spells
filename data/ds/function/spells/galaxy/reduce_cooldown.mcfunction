@@ -5,5 +5,3 @@ execute store result score @s ds-ascension run data get entity @s SelectedItem.c
 
 # Ascension 4: Blood Moon
 execute if score @s ds-var matches 5 if score @s ds-ascension matches 4.. run scoreboard players remove @s ds-galaxy-ultimate 100
-
-advancement revoke @s only ds:kill_enemy

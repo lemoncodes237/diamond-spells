@@ -12,3 +12,7 @@ execute as @a if entity @s[tag=calamity_normal] if predicate ds:on_ground run fu
 
 # End of Size Shifter Ultimate
 execute as @a[tag=sizeshifter_ultimate] unless predicate ds:shrink at @s run function ds:spells/sizeshifter/end_ultimate
+
+# Sahd Ultimate
+execute as @a if predicate ds:frenzy run function ds:spells/sahd/refresh_strength
+execute as @a[tag=ascension_2_frenzy] unless predicate ds:frenzy run tag @s remove ascension_2_frenzy
