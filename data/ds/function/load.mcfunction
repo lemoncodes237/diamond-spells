@@ -54,6 +54,8 @@ scoreboard objectives add ds-crashlanding-sworddrop-id dummy
 # Ember Core cooldowns
 scoreboard objectives add ds-embercore-normal dummy
 scoreboard objectives add ds-embercore-ultimate dummy
+# Lava Walk timer
+scoreboard objectives add ds-embercore-lavawalk dummy
 
 # Size Shifter cooldowns
 scoreboard objectives add ds-sizeshifter-normal dummy

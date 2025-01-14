@@ -6,12 +6,11 @@ execute unless score @s ds-embercore-ultimate matches 0.. run scoreboard players
 scoreboard players operation @s ds-reg1 = @s ds-embercore-ultimate
 execute if score @s ds-reg1 > #ds-tick ds-var run return run function ds:lib/cooldown
 
-# If we are in a different ultimate state, do not cast the ultimate
-execute if predicate ds:in_ultimate unless predicate ds:lava_walk run return run function ds:lib/in_ultimate
-
 playsound block.lava.extinguish master @a ~ ~ ~
 
-effect give @s luck 30 25
+scoreboard players operation @s ds-embercore-lavawalk = #ds-tick ds-var
+scoreboard players add @s ds-embercore-lavawalk 600
+
 effect give @s speed 30 1
 effect give @s fire_resistance 30
 

@@ -13,9 +13,9 @@ execute as @e[type=marker,tag=calamity_ultimate_attack] at @s run function ds:sp
 execute as @a if score @s ds-jump matches 1.. at @s run function ds:check_jump
 
 # Ember Core Ultimate Ascension 5 tag riddance
-execute as @a[tag=ascension_5_lava_walk] unless predicate ds:lava_walk run tag @s remove ascension_5_lava_walk
+execute as @a[tag=ascension_5_lava_walk] unless score @s ds-embercore-lavawalk >= #ds-tick ds-var run tag @s remove ascension_5_lava_walk
 # Ember Core Ultimate
-execute as @a if predicate ds:lava_walk at @s run function ds:spells/embercore/lava_walk
+execute as @a if score @s ds-embercore-lavawalk >= #ds-tick ds-var at @s run function ds:spells/embercore/lava_walk
 
 # Oceanic Judge Ultimate
 execute as @e[type=marker,tag=oceanicjudge_wave] at @s run function ds:spells/oceanicjudge/move_wave
