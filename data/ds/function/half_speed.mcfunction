@@ -19,3 +19,7 @@ execute as @a if predicate ds:lava_walk at @s run function ds:spells/embercore/l
 
 # Oceanic Judge Ultimate
 execute as @e[type=marker,tag=oceanicjudge_wave] at @s run function ds:spells/oceanicjudge/move_wave
+
+# Clearsight Ultimate
+execute as @e[type=item_display,tag=ds_all_seeing_eye] at @s run function ds:spells/clearsight/all_seeing_eye
+execute as @e[type=marker,tag=incoming_eye_attack] at @s run function ds:spells/clearsight/cause_damage

@@ -22,6 +22,8 @@ execute if score @s ds-ascension matches 2.. run tag @s add ascension_2_frenzy
 # Ascension 4: Speedy Frenzy
 execute if score @s ds-ascension matches 4.. run effect give @s speed 20 1 true
 
+playsound entity.elder_guardian.curse master @a ~ ~ ~
+
 scoreboard players operation @s ds-sahd-ultimate = #ds-tick ds-var
 # 1 minute 30 second cooldown
 scoreboard players add @s ds-sahd-ultimate 1800

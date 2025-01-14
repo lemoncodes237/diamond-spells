@@ -60,3 +60,9 @@ scoreboard objectives add ds-sahd-normal dummy
 scoreboard objectives add ds-sahd-ultimate dummy
 # Strength tracker
 scoreboard objectives add ds-sahd-strength dummy
+
+# Clearsight cooldowns
+scoreboard objectives add ds-clearsight-normal dummy
+scoreboard objectives add ds-clearsight-ultimate dummy
+# All-Seeing Eye ID
+scoreboard objectives add ds-clearsight-eye-id dummy
