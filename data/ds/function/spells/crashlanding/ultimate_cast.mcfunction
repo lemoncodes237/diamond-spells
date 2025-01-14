@@ -20,7 +20,8 @@ execute if score @s ds-ascension matches 1.. run effect give @s speed 20 4 true
 execute if score @s ds-ascension matches 2.. run tag @s add hard_landing
 execute if score @s ds-ascension matches 4.. run tag @s add hard_impact
 
-effect give @s luck 20 24 true
+scoreboard players operation @s ds-crashlanding-mightyimpact = #ds-tick ds-var
+scoreboard players add @s ds-crashlanding-mightyimpact 400
 tag @s add crashlanding_in_ultimate
 
 playsound entity.wither.spawn master @a ~ ~ ~

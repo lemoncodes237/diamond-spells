@@ -50,6 +50,8 @@ scoreboard objectives add ds-crashlanding-normal dummy
 scoreboard objectives add ds-crashlanding-ultimate dummy
 # Sword Drop ID
 scoreboard objectives add ds-crashlanding-sworddrop-id dummy
+# Mighty Impact timer
+scoreboard objectives add ds-crashlanding-mightyimpact dummy
 
 # Ember Core cooldowns
 scoreboard objectives add ds-embercore-normal dummy
