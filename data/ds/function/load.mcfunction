@@ -21,6 +21,8 @@ scoreboard objectives add ds-jumper-ultimate dummy
 # Conductor's Baton cooldowns
 scoreboard objectives add ds-conductors-baton-normal dummy
 scoreboard objectives add ds-conductors-baton-ultimate dummy
+# Adagio Timer
+scoreboard objectives add ds-conductors-baton-adagio dummy
 
 # Calamity cooldowns
 scoreboard objectives add ds-calamity-normal dummy
