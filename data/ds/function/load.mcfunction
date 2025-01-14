@@ -28,6 +28,8 @@ scoreboard objectives add ds-conductors-baton-adagio dummy
 scoreboard objectives add ds-calamity-normal dummy
 scoreboard objectives add ds-calamity-ultimate dummy
 scoreboard objectives add ds-calamity-ultimate-attack dummy
+# Death Shower Timer
+scoreboard objectives add ds-calamity-deathshower dummy
 
 # Mining Fever cooldowns
 scoreboard objectives add ds-mining-fever-normal dummy

@@ -6,7 +6,10 @@ execute if score @s ds-reg1 > #ds-tick ds-var run return run function ds:lib/coo
 execute if predicate ds:in_ultimate run return run function ds:lib/in_ultimate
 
 effect give @s levitation 1 3 true
-effect give @s luck 30 23 true
+
+scoreboard players operation @s ds-calamity-deathshower = #ds-tick ds-var
+scoreboard players add @s ds-calamity-deathshower 600
+
 tag @s add calamity_ultimate
 attribute @s gravity modifier add ds:calamity -1 add_multiplied_base
 playsound item.trident.thunder master @a ~ ~ ~ 1 0.3

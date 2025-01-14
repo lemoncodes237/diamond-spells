@@ -6,7 +6,7 @@ scoreboard players set #ds-tick ds-reg1 0
 execute as @a if score @s ds-conductors-baton-adagio >= #ds-tick ds-var at @s run particle note ~ ~ ~ 2 1 2 0.1 20
 
 # If this is false, we get rid of the multiplier
-execute as @a if entity @s[tag=calamity_ultimate] unless predicate ds:death_shower run function ds:spells/calamity/end_ultimate
+execute as @a if entity @s[tag=calamity_ultimate] if score @s ds-calamity-deathshower < #ds-tick ds-var run function ds:spells/calamity/end_ultimate
 # Clear fall damage multiplier
 execute as @a if entity @s[tag=calamity_normal] if predicate ds:on_ground run function ds:spells/calamity/clear_fall_damage_inv
 
