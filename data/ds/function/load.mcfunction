@@ -12,6 +12,11 @@ scoreboard objectives add ds-reg3 dummy
 scoreboard objectives add ds-reg4 dummy
 scoreboard objectives add ds-reg5 dummy
 
+# Reset
+scoreboard objectives add ds-reset dummy
+# When it is the first time being loaded
+execute unless score #ds-tick ds-reset matches 0.. run scoreboard players set #ds-tick ds-reset 0
+
 scoreboard players set #ds-twenty ds-var 20
 
 # Jumper cooldowns

@@ -22,6 +22,8 @@ execute if score @s ds-ascension matches 4.. positioned ~ ~6 ~ run tag @e[type=i
 # Ascension 5: Omniscient Eye
 execute if score @s ds-ascension matches 5.. positioned ~ ~6 ~ run tag @e[type=item_display,tag=ds_all_seeing_eye,distance=..2,limit=1,sort=nearest] add omniscient_eye
 
+playsound item.totem.use master @a ~ ~ ~
+
 scoreboard players operation @s ds-clearsight-ultimate = #ds-tick ds-var
-# 20 second cooldown
-scoreboard players add @s ds-clearsight-ultimate 0
+# 50 second cooldown
+scoreboard players add @s ds-clearsight-ultimate 1000
