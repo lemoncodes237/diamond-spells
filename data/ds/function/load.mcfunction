@@ -34,6 +34,8 @@ scoreboard objectives add ds-mining-fever-ultimate dummy
 # Galaxy cooldowns
 scoreboard objectives add ds-galaxy-normal dummy
 scoreboard objectives add ds-galaxy-ultimate dummy
+# Meteor ID
+scoreboard objectives add ds-galaxy-meteor-id dummy
 
 # Nullification cooldowns
 scoreboard objectives add ds-nullification-normal dummy
@@ -42,6 +44,8 @@ scoreboard objectives add ds-nullification-ultimate dummy
 # Crash Landing cooldowns
 scoreboard objectives add ds-crashlanding-normal dummy
 scoreboard objectives add ds-crashlanding-ultimate dummy
+# Sword Drop ID
+scoreboard objectives add ds-crashlanding-sworddrop-id dummy
 
 # Ember Core cooldowns
 scoreboard objectives add ds-embercore-normal dummy
@@ -50,10 +54,14 @@ scoreboard objectives add ds-embercore-ultimate dummy
 # Size Shifter cooldowns
 scoreboard objectives add ds-sizeshifter-normal dummy
 scoreboard objectives add ds-sizeshifter-ultimate dummy
+# Grow ID
+scoreboard objectives add ds-sizeshifter-grow-id dummy
 
-# Size Shifter cooldowns
+# Oceanic Judge
 scoreboard objectives add ds-oceanicjudge-normal dummy
 scoreboard objectives add ds-oceanicjudge-ultimate dummy
+# Wave ID
+scoreboard objectives add ds-oceanicjudge-wave-id dummy
 
 # Sahd cooldowns
 scoreboard objectives add ds-sahd-normal dummy

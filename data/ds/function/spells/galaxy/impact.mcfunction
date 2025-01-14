@@ -1,6 +1,12 @@
-execute unless entity @s[tag=galaxy_heavy] as @e[type=!#ds:immune,distance=..8] run damage @s 30 explosion
+# Find Meteor Caster
+scoreboard players operation #ds-temp ds-galaxy-meteor-id = @s ds-galaxy-meteor-id
+execute as @a if score @s ds-galaxy-meteor-id = #ds-temp ds-galaxy-meteor-id run tag @s add ds_meteor_caster
+
+execute unless entity @s[tag=galaxy_heavy] as @e[type=!#ds:immune,distance=..8,tag=!ds_meteor_caster] run damage @s 30 player_explosion by @a[tag=ds_meteor_caster,limit=1]
 # Ascension 5: Heavy Strike
-execute if entity @s[tag=galaxy_heavy] as @e[type=!#ds:immune,distance=..8] run damage @s 36 explosion
+execute if entity @s[tag=galaxy_heavy] as @e[type=!#ds:immune,distance=..8,tag=!ds_meteor_caster] run damage @s 36 player_explosion by @a[tag=ds_meteor_caster,limit=1]
+
+tag @a remove ds_meteor_caster
 
 kill @s
 kill @e[type=marker,tag=galaxy_meteor_location,sort=nearest,limit=1]

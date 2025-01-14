@@ -21,8 +21,10 @@ execute if score @s ds-ascension matches 1..4 run summon block_display ~ ~60 ~ {
 execute if score @s ds-ascension matches 5.. run summon block_display ~ ~60 ~ {Tags:["galaxy_meteor","galaxy_meteorite","galaxy_heavy"],block_state:{Name:"magma_block"},transformation:{left_rotation:[95f,62f,81f,1f],right_rotation:[0f,0f,0f,1f],translation:[-4f,-4f,-4f],scale:[8f,8f,8f]}}
 execute if score @s ds-ascension matches 5.. run effect give @s strength 5
 
-# Invincible until impact
-effect give @s resistance 3 255 true
+# Set Meteor ID
+scoreboard players add #ds-global ds-galaxy-meteor-id 1
+scoreboard players operation @s ds-galaxy-meteor-id = #ds-global ds-galaxy-meteor-id
+execute positioned ~ ~60 ~ run scoreboard players operation @e[tag=galaxy_meteor,type=block_display,distance=..1,sort=nearest,limit=1] ds-galaxy-meteor-id = @s ds-galaxy-meteor-id
 
 scoreboard players operation @s ds-galaxy-ultimate = #ds-tick ds-var
 # 40 second cooldown

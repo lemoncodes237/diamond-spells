@@ -4,16 +4,22 @@ scoreboard players add @s ds-var 1
 
 execute if score @s ds-var matches 60.. run kill @s
 
-execute positioned ^ ^ ^ as @e[distance=..1.5,type=!#ds:immune] run damage @s 8 player_attack at ^ ^ ^-1
-execute positioned ^1 ^ ^ as @e[distance=..1.5,type=!#ds:immune] run damage @s 8 player_attack at ^1 ^ ^-1
-execute positioned ^2 ^ ^ as @e[distance=..1.5,type=!#ds:immune] run damage @s 8 player_attack at ^2 ^ ^-1
-execute positioned ^3 ^ ^ as @e[distance=..1.5,type=!#ds:immune] run damage @s 8 player_attack at ^3 ^ ^-1
-execute positioned ^4 ^ ^ as @e[distance=..1.5,type=!#ds:immune] run damage @s 8 player_attack at ^4 ^ ^-1
-execute positioned ^5 ^ ^ as @e[distance=..1.5,type=!#ds:immune] run damage @s 8 player_attack at ^5 ^ ^-1
-execute positioned ^-1 ^ ^ as @e[distance=..1.5,type=!#ds:immune] run damage @s 8 player_attack at ^-1 ^ ^-1
-execute positioned ^-2 ^ ^ as @e[distance=..1.5,type=!#ds:immune] run damage @s 8 player_attack at ^-2 ^ ^-1
-execute positioned ^-3 ^ ^ as @e[distance=..1.5,type=!#ds:immune] run damage @s 8 player_attack at ^-3 ^ ^-1
-execute positioned ^-4 ^ ^ as @e[distance=..1.5,type=!#ds:immune] run damage @s 8 player_attack at ^-4 ^ ^-1
-execute positioned ^-5 ^ ^ as @e[distance=..1.5,type=!#ds:immune] run damage @s 8 player_attack at ^-5 ^ ^-1
+# Find the person who spawned the wave
+scoreboard players operation #ds-temp ds-oceanicjudge-wave-id = @s ds-oceanicjudge-wave-id
+execute as @a if score @s ds-oceanicjudge-wave-id = #ds-temp ds-oceanicjudge-wave-id run tag @s add ds_wave_spawner
+
+execute positioned ^ ^ ^ as @e[distance=..1.5,type=!#ds:immune,tag=!ds_wave_spawner] run damage @s 8 player_attack by @a[tag=ds_wave_spawner,limit=1]
+execute positioned ^1 ^ ^ as @e[distance=..1.5,type=!#ds:immune,tag=!ds_wave_spawner] run damage @s 8 player_attack by @a[tag=ds_wave_spawner,limit=1]
+execute positioned ^2 ^ ^ as @e[distance=..1.5,type=!#ds:immune,tag=!ds_wave_spawner] run damage @s 8 player_attack by @a[tag=ds_wave_spawner,limit=1]
+execute positioned ^3 ^ ^ as @e[distance=..1.5,type=!#ds:immune,tag=!ds_wave_spawner] run damage @s 8 player_attack by @a[tag=ds_wave_spawner,limit=1]
+execute positioned ^4 ^ ^ as @e[distance=..1.5,type=!#ds:immune,tag=!ds_wave_spawner] run damage @s 8 player_attack by @a[tag=ds_wave_spawner,limit=1]
+execute positioned ^5 ^ ^ as @e[distance=..1.5,type=!#ds:immune,tag=!ds_wave_spawner] run damage @s 8 player_attack by @a[tag=ds_wave_spawner,limit=1]
+execute positioned ^-1 ^ ^ as @e[distance=..1.5,type=!#ds:immune,tag=!ds_wave_spawner] run damage @s 8 player_attack by @a[tag=ds_wave_spawner,limit=1]
+execute positioned ^-2 ^ ^ as @e[distance=..1.5,type=!#ds:immune,tag=!ds_wave_spawner] run damage @s 8 player_attack by @a[tag=ds_wave_spawner,limit=1]
+execute positioned ^-3 ^ ^ as @e[distance=..1.5,type=!#ds:immune,tag=!ds_wave_spawner] run damage @s 8 player_attack by @a[tag=ds_wave_spawner,limit=1]
+execute positioned ^-4 ^ ^ as @e[distance=..1.5,type=!#ds:immune,tag=!ds_wave_spawner] run damage @s 8 player_attack by @a[tag=ds_wave_spawner,limit=1]
+execute positioned ^-5 ^ ^ as @e[distance=..1.5,type=!#ds:immune,tag=!ds_wave_spawner] run damage @s 8 player_attack by @a[tag=ds_wave_spawner,limit=1]
+
+tag @a remove ds_wave_spawner
 
 execute if score @s ds-var matches 30.. if entity @s[tag=ascension_5_wave] run function ds:spells/oceanicjudge/second_wave

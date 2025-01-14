@@ -1,2 +1,2 @@
-execute as @a[tag=crashlanding_ascension_5,sort=nearest,limit=1] run scoreboard players remove @s ds-crashlanding-normal 20
-execute as @a[tag=crashlanding_ascension_5,sort=nearest,limit=1] run scoreboard players remove @s ds-crashlanding-ultimate 20
+execute as @a[tag=ds_sword_spawner,sort=nearest,limit=1] run scoreboard players remove @s ds-crashlanding-normal 20
+execute as @a[tag=ds_sword_spawner,sort=nearest,limit=1] run scoreboard players remove @s ds-crashlanding-ultimate 20

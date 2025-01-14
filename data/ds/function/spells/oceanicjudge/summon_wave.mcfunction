@@ -6,5 +6,10 @@ execute if score @s ds-ascension matches 5.. run tag @e[type=marker,tag=wave_tem
 execute as @e[type=marker,tag=wave_temp,distance=..3,limit=1] at @s anchored eyes run tp @s ~ ~ ~ facing entity @e[type=marker,tag=direction,distance=..3,limit=1]
 execute as @e[type=marker,tag=wave_temp,distance=..3,limit=1] at @s anchored eyes run tp @s ^ ^ ^3
 
+# Generate Wave ID
+scoreboard players add #ds-global ds-oceanicjudge-wave-id 1
+scoreboard players operation @s ds-oceanicjudge-wave-id = #ds-global ds-oceanicjudge-wave-id
+scoreboard players operation @e[type=marker,tag=wave_temp,distance=..7,limit=1] ds-oceanicjudge-wave-id = @s ds-oceanicjudge-wave-id
+
 tag @e[type=marker,tag=wave_temp,distance=..7] remove wave_temp
 kill @e[type=marker,tag=direction,distance=..3]
