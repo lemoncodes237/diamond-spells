@@ -3,8 +3,8 @@ playsound item.trident.hit_ground master @a ~ ~ ~ 3 0.5
 particle ash ~ ~ ~ 1 1 1 0.1 50
 
 # Find player who summoned sword
-scoreboard players operation #ds-temp ds-crashlanding-sworddrop-id = @s ds-crashlanding-sworddrop-id
-execute as @a if score @s ds-crashlanding-sworddrop-id = #ds-temp ds-crashlanding-sworddrop-id run tag @s add ds_sword_spawner
+scoreboard players operation #ds-temp ds-id = @s ds-id
+execute as @a if score @s ds-id = #ds-temp ds-id run tag @s add ds_sword_spawner
 
 # Ascension 5: Bloody Recharge
 execute if entity @s[tag=ascension_5_sword] as @e[type=!#ds:immune,distance=..3,tag=!ds_sword_spawner] run function ds:spells/crashlanding/decrease_cooldown

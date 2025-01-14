@@ -1,0 +1,12 @@
+execute if score @s ds-reg1 matches 1 run return run function ds:give/jumper_ascension_3
+execute if score @s ds-reg1 matches 2 run return run function ds:give/conductors_baton_ascension_3
+execute if score @s ds-reg1 matches 3 run return run function ds:give/calamity_ascension_3
+execute if score @s ds-reg1 matches 4 run return run function ds:give/mining_fever_ascension_3
+execute if score @s ds-reg1 matches 5 run return run function ds:give/galaxy_ascension_3
+execute if score @s ds-reg1 matches 6 run return run function ds:give/nullification_ascension_3
+execute if score @s ds-reg1 matches 7 run return run function ds:give/crash_landing_ascension_3
+execute if score @s ds-reg1 matches 8 run return run function ds:give/ember_core_ascension_3
+execute if score @s ds-reg1 matches 9 run return run function ds:give/size_shifter_ascension_3
+execute if score @s ds-reg1 matches 10 run return run function ds:give/oceanic_judge_ascension_3
+execute if score @s ds-reg1 matches 11 run return run function ds:give/sahd_ascension_3
+execute if score @s ds-reg1 matches 12 run return run function ds:give/clearsight_ascension_3

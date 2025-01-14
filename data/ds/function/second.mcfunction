@@ -2,6 +2,9 @@ scoreboard players set #ds-tick ds-reg1 0
 
 # Runs every second
 
+# ID Creation
+execute as @a unless score @s ds-id matches 0.. run function ds:generate_id
+
 # Cooldown reset
 execute as @a unless score @s ds-reset >= #ds-tick ds-reset run function ds:need_reset
 execute if score #ds-tick ds-var matches ..-1 run function ds:hard_reset

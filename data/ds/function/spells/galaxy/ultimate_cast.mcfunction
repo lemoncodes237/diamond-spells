@@ -22,9 +22,7 @@ execute if score @s ds-ascension matches 5.. run summon block_display ~ ~60 ~ {T
 execute if score @s ds-ascension matches 5.. run effect give @s strength 5
 
 # Set Meteor ID
-scoreboard players add #ds-global ds-galaxy-meteor-id 1
-scoreboard players operation @s ds-galaxy-meteor-id = #ds-global ds-galaxy-meteor-id
-execute positioned ~ ~60 ~ run scoreboard players operation @e[tag=galaxy_meteor,type=block_display,distance=..1,sort=nearest,limit=1] ds-galaxy-meteor-id = @s ds-galaxy-meteor-id
+execute positioned ~ ~60 ~ run scoreboard players operation @e[tag=galaxy_meteor,type=block_display,distance=..1,sort=nearest,limit=1] ds-id = @s ds-id
 
 scoreboard players operation @s ds-galaxy-ultimate = #ds-tick ds-var
 # 40 second cooldown

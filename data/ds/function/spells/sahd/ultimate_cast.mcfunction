@@ -21,7 +21,7 @@ execute if score @s ds-ascension matches 1.. run function ds:spells/sahd/on_kill
 execute if score @s ds-ascension matches 2.. run tag @s add ascension_2_frenzy
 
 # Ascension 4: Speedy Frenzy
-execute if score @s ds-ascension matches 4.. run effect give @s speed 20 1 true
+execute if score @s ds-ascension matches 4.. run effect give @s speed 20 1
 
 playsound entity.elder_guardian.curse master @a ~ ~ ~
 

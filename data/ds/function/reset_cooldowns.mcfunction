@@ -1,6 +1,7 @@
 scoreboard players set @s ds-calamity-deathshower -1
 scoreboard players set @s ds-calamity-normal 0
 scoreboard players set @s ds-calamity-ultimate 0
+scoreboard players set @s ds-calamity-ultimate-attack 0
 scoreboard players set @s ds-clearsight-normal 0
 scoreboard players set @s ds-clearsight-ultimate 0
 scoreboard players set @s ds-conductors-baton-adagio -1

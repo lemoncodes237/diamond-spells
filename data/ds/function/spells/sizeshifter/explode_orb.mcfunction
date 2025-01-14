@@ -1,5 +1,5 @@
-scoreboard players operation #ds-temp ds-sizeshifter-grow-id = @s ds-sizeshifter-grow-id
-execute as @a if score @s ds-sizeshifter-grow-id = #ds-temp ds-sizeshifter-grow-id run tag @s add ds_orb_spawner
+scoreboard players operation #ds-temp ds-id = @s ds-id
+execute as @a if score @s ds-id = #ds-temp ds-id run tag @s add ds_orb_spawner
 
 execute as @e[type=!#ds:immune,tag=!ds_orb_spawner,distance=..5] run damage @s 7 player_explosion by @a[tag=ds_orb_spawner,limit=1]
 

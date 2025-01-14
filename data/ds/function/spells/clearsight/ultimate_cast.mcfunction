@@ -9,9 +9,7 @@ execute if score @s ds-reg1 > #ds-tick ds-var run return run function ds:lib/coo
 summon item_display ~ ~6 ~ {Tags:["ds_all_seeing_eye"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1f,0f],scale:[4f,4f,4f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;88315087,1727545940,-1275907149,1770602545],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWI0YzQzMmU1ZTY3ZGM4MzlmOGFhYzViMGJiYjAyNGMyMDNlNGNmZGMxYTMyZmE0MTcxMmJmYmQzNzYwNmY2MiJ9fX0="}]}}}}
 
 # Create an ID for the all-seeing eye
-scoreboard players add #ds-global ds-clearsight-eye-id 1
-scoreboard players operation @s ds-clearsight-eye-id = #ds-global ds-clearsight-eye-id
-execute positioned ~ ~6 ~ run scoreboard players operation @e[type=item_display,tag=ds_all_seeing_eye,distance=..2,limit=1,sort=nearest] ds-clearsight-eye-id = #ds-global ds-clearsight-eye-id
+execute positioned ~ ~6 ~ run scoreboard players operation @e[type=item_display,tag=ds_all_seeing_eye,distance=..2,limit=1,sort=nearest] ds-id = @s ds-id
 
 # Ascension 1: Mobile Eye
 execute if score @s ds-ascension matches 1.. positioned ~ ~6 ~ run tag @e[type=item_display,tag=ds_all_seeing_eye,distance=..2,limit=1,sort=nearest] add mobile_eye

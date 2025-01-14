@@ -4,6 +4,7 @@ scoreboard objectives add ds-spell_cast used:carrot_on_a_stick
 scoreboard objectives add ds-var dummy
 scoreboard objectives add ds-ascension dummy
 scoreboard objectives add ds-jump minecraft.custom:jump
+scoreboard objectives add ds-id dummy
 
 # Registers
 scoreboard objectives add ds-reg1 dummy
@@ -43,8 +44,6 @@ scoreboard objectives add ds-mining-fever-ultimate dummy
 # Galaxy cooldowns
 scoreboard objectives add ds-galaxy-normal dummy
 scoreboard objectives add ds-galaxy-ultimate dummy
-# Meteor ID
-scoreboard objectives add ds-galaxy-meteor-id dummy
 
 # Nullification cooldowns
 scoreboard objectives add ds-nullification-normal dummy
@@ -53,8 +52,6 @@ scoreboard objectives add ds-nullification-ultimate dummy
 # Crash Landing cooldowns
 scoreboard objectives add ds-crashlanding-normal dummy
 scoreboard objectives add ds-crashlanding-ultimate dummy
-# Sword Drop ID
-scoreboard objectives add ds-crashlanding-sworddrop-id dummy
 # Mighty Impact timer
 scoreboard objectives add ds-crashlanding-mightyimpact dummy
 
@@ -67,16 +64,12 @@ scoreboard objectives add ds-embercore-lavawalk dummy
 # Size Shifter cooldowns
 scoreboard objectives add ds-sizeshifter-normal dummy
 scoreboard objectives add ds-sizeshifter-ultimate dummy
-# Grow ID
-scoreboard objectives add ds-sizeshifter-grow-id dummy
 # Shrink timer
 scoreboard objectives add ds-sizeshifter-shrink dummy
 
 # Oceanic Judge
 scoreboard objectives add ds-oceanicjudge-normal dummy
 scoreboard objectives add ds-oceanicjudge-ultimate dummy
-# Wave ID
-scoreboard objectives add ds-oceanicjudge-wave-id dummy
 
 # Sahd cooldowns
 scoreboard objectives add ds-sahd-normal dummy
@@ -89,5 +82,3 @@ scoreboard objectives add ds-sahd-frenzy dummy
 # Clearsight cooldowns
 scoreboard objectives add ds-clearsight-normal dummy
 scoreboard objectives add ds-clearsight-ultimate dummy
-# All-Seeing Eye ID
-scoreboard objectives add ds-clearsight-eye-id dummy

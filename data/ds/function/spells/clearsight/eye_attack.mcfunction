@@ -1,6 +1,6 @@
 scoreboard players set @s ds-var 0
 
-execute as @a if score @s ds-clearsight-eye-id = @e[type=item_display,tag=ds_all_seeing_eye,distance=..2,sort=nearest,limit=1] ds-clearsight-eye-id run tag @s add ds_eye_no_target
+execute as @a if score @s ds-id = @e[type=item_display,tag=ds_all_seeing_eye,distance=..2,sort=nearest,limit=1] ds-id run tag @s add ds_eye_no_target
 
 execute positioned ~ ~-6 ~ unless entity @e[tag=!ds_eye_no_target,type=!#ds:immune,distance=..14] run return run tag @a remove ds_eye_no_target
 

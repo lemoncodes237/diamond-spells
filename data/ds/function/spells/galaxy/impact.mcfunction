@@ -1,6 +1,6 @@
 # Find Meteor Caster
-scoreboard players operation #ds-temp ds-galaxy-meteor-id = @s ds-galaxy-meteor-id
-execute as @a if score @s ds-galaxy-meteor-id = #ds-temp ds-galaxy-meteor-id run tag @s add ds_meteor_caster
+scoreboard players operation #ds-temp ds-id = @s ds-id
+execute as @a if score @s ds-id = #ds-temp ds-id run tag @s add ds_meteor_caster
 
 execute unless entity @s[tag=galaxy_heavy] as @e[type=!#ds:immune,distance=..8,tag=!ds_meteor_caster] run damage @s 30 player_explosion by @a[tag=ds_meteor_caster,limit=1]
 # Ascension 5: Heavy Strike
