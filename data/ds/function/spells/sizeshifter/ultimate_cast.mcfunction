@@ -6,16 +6,15 @@ execute unless score @s ds-sizeshifter-ultimate matches 0.. run scoreboard playe
 scoreboard players operation @s ds-reg1 = @s ds-sizeshifter-ultimate
 execute if score @s ds-reg1 > #ds-tick ds-var run return run function ds:lib/cooldown
 
-# If we are in ultimate state, do not cast the ultimate
-execute if predicate ds:in_ultimate run return run function ds:lib/in_ultimate
-
 attribute @s scale modifier add ds:shrink -0.75 add_multiplied_total
+
+scoreboard players operation @s ds-sizeshifter-shrink = #ds-tick ds-var
 
 # Yes, this is inefficient. It's four commands leave me alone I'm too lazy to make two more functions
 # Ascension 3: Stronger Shrink
-execute if score @s ds-ascension matches ..2 run effect give @s luck 10 26 true
+execute if score @s ds-ascension matches ..2 run scoreboard players add @s ds-sizeshifter-shrink 200
 execute if score @s ds-ascension matches ..2 run effect give @s speed 10 1
-execute if score @s ds-ascension matches 3.. run effect give @s luck 15 26 true
+execute if score @s ds-ascension matches 3.. run scoreboard players add @s ds-sizeshifter-shrink 300
 execute if score @s ds-ascension matches 3.. run effect give @s speed 15 1
 
 # Ascension 4: Small but Deadly

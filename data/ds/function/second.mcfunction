@@ -11,7 +11,7 @@ execute as @a if entity @s[tag=calamity_ultimate] if score @s ds-calamity-deaths
 execute as @a if entity @s[tag=calamity_normal] if predicate ds:on_ground run function ds:spells/calamity/clear_fall_damage_inv
 
 # End of Size Shifter Ultimate
-execute as @a[tag=sizeshifter_ultimate] unless predicate ds:shrink at @s run function ds:spells/sizeshifter/end_ultimate
+execute as @a[tag=sizeshifter_ultimate] unless score @s ds-sizeshifter-shrink >= #ds-tick ds-var at @s run function ds:spells/sizeshifter/end_ultimate
 
 # Sahd Ultimate
 execute as @a if score @s ds-sahd-frenzy >= #ds-tick ds-var at @s run function ds:spells/sahd/refresh_strength

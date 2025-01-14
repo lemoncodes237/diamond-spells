@@ -64,6 +64,8 @@ scoreboard objectives add ds-sizeshifter-normal dummy
 scoreboard objectives add ds-sizeshifter-ultimate dummy
 # Grow ID
 scoreboard objectives add ds-sizeshifter-grow-id dummy
+# Shrink timer
+scoreboard objectives add ds-sizeshifter-shrink dummy
 
 # Oceanic Judge
 scoreboard objectives add ds-oceanicjudge-normal dummy

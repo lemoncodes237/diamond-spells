@@ -6,9 +6,6 @@ execute unless score @s ds-crashlanding-ultimate matches 0.. run scoreboard play
 scoreboard players operation @s ds-reg1 = @s ds-crashlanding-ultimate
 execute if score @s ds-reg1 > #ds-tick ds-var run return run function ds:lib/cooldown
 
-# If we are in ultimate state, do not cast the ultimate
-execute if predicate ds:in_ultimate run return run function ds:lib/in_ultimate
-
 effect give @s jump_boost 20 80 true
 attribute @s gravity modifier add ds:mighty_impact 10 add_value
 attribute @s safe_fall_distance modifier add ds:mighty_impact 1000 add_value

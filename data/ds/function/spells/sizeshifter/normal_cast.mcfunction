@@ -22,4 +22,4 @@ scoreboard players operation @s ds-sizeshifter-normal = #ds-tick ds-var
 scoreboard players add @s ds-sizeshifter-normal 60
 
 # Ascension 1: Mismatch
-execute if score @s ds-ascension matches 1.. if predicate ds:shrink run scoreboard players remove @s ds-sizeshifter-normal 40
+execute if score @s ds-ascension matches 1.. if score @s ds-sizeshifter-shrink >= #ds-tick ds-var run scoreboard players remove @s ds-sizeshifter-normal 40
