@@ -1,4 +1,4 @@
-execute unless predicate ds:frenzy run return 0
+execute unless score @s ds-sahd-frenzy >= #ds-tick ds-var run return 0
 
 scoreboard players add @s ds-sahd-strength 1
 

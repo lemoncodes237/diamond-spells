@@ -7,8 +7,9 @@ scoreboard players operation @s ds-reg1 = @s ds-sahd-ultimate
 execute if score @s ds-reg1 > #ds-tick ds-var run return run function ds:lib/cooldown
 
 effect give @s strength 20 0
-# This technically goes on for 22s.
-effect give @s luck 20 27 true
+
+scoreboard players operation @s ds-sahd-frenzy = #ds-tick ds-var
+scoreboard players add @s ds-sahd-frenzy 400
 
 scoreboard players set @s ds-sahd-strength 0
 

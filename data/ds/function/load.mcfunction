@@ -72,6 +72,8 @@ scoreboard objectives add ds-sahd-normal dummy
 scoreboard objectives add ds-sahd-ultimate dummy
 # Strength tracker
 scoreboard objectives add ds-sahd-strength dummy
+# Frenzy timer
+scoreboard objectives add ds-sahd-frenzy dummy
 
 # Clearsight cooldowns
 scoreboard objectives add ds-clearsight-normal dummy

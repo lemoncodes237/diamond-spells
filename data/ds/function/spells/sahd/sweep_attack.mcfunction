@@ -3,8 +3,8 @@ particle sweep_attack ~ ~ ~ 0.1 0.1 0.1 0 3 force
 scoreboard players set @s ds-var 3
 
 # Ascension 5: Frenzied Sweep
-execute if score @s ds-ascension matches 5.. if predicate ds:frenzy run scoreboard players operation @s ds-var += @s ds-sahd-strength
-execute if score @s ds-ascension matches 5.. if predicate ds:frenzy run scoreboard players add @s ds-var 1
+execute if score @s ds-ascension matches 5.. if score @s ds-sahd-frenzy >= #ds-tick ds-var run scoreboard players operation @s ds-var += @s ds-sahd-strength
+execute if score @s ds-ascension matches 5.. if score @s ds-sahd-frenzy >= #ds-tick ds-var run scoreboard players add @s ds-var 1
 
 # Scale 2 so that the base damage is 6 and increases by 2 per level of strength
 execute store result storage ds:frenzy dmg int 2 run scoreboard players get @s ds-var
