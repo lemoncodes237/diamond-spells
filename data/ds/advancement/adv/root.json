@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond"
+      },
+      "title": "Diamond Spells",
+      "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+      "description": "Welcome to Diamond Spells! Use '/trigger guide' to get started!",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

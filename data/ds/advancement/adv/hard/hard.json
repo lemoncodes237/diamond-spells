@@ -1,0 +1,21 @@
+{
+    "parent": "ds:adv/root",
+    "criteria": {
+      "criteria": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "display": {
+      "frame": "challenge",
+      "announce_to_chat": false,
+      "description": "Hard advancements that grant 5 stars",
+      "icon": {
+        "count": 1,
+        "id": "red_concrete"
+      },
+      "show_toast": false,
+      "title": "Hard",
+      "hidden": false
+    },
+    "sends_telemetry_event": false
+  }

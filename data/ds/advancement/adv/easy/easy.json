@@ -1,0 +1,21 @@
+{
+    "parent": "ds:adv/root",
+    "criteria": {
+      "criteria": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "display": {
+      "frame": "task",
+      "announce_to_chat": false,
+      "description": "Easy advancements that grant 1 star",
+      "icon": {
+        "count": 1,
+        "id": "lime_concrete"
+      },
+      "show_toast": false,
+      "title": "Easy",
+      "hidden": false
+    },
+    "sends_telemetry_event": false
+  }

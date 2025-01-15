@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:charcoal"
+      },
+      "title": "Fuel Upgrade",
+      "description": "Smelt a log to get charcoal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/easy",
+    "criteria": {
+      "charcoal": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:charcoal"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }
