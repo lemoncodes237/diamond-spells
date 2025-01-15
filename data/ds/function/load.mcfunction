@@ -92,3 +92,9 @@ scoreboard objectives add ds-malison-curse dummy
 # Farmer's Delight cooldowns
 scoreboard objectives add ds-farmersdelight-normal dummy
 scoreboard objectives add ds-farmersdelight-ultimate dummy
+
+# Soren cooldowns
+scoreboard objectives add ds-soren-normal dummy
+scoreboard objectives add ds-soren-ultimate dummy
+# Architect timer
+scoreboard objectives add ds-soren-architect dummy

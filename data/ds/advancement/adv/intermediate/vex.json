@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_sword"
+      },
+      "title": "So Annoying",
+      "description": "Kill a Vex",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/intermediate/woodland_mansion",
+    "criteria": {
+      "iron": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:vex"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    }
+  }

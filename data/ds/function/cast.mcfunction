@@ -26,3 +26,4 @@ execute if score @s ds-var matches 11 run return run function ds:spells/sahd/cas
 execute if score @s ds-var matches 12 run return run function ds:spells/clearsight/cast
 execute if score @s ds-var matches 13 run return run function ds:spells/malison/cast
 execute if score @s ds-var matches 14 run return run function ds:spells/farmersdelight/cast
+execute if score @s ds-var matches 15 run return run function ds:spells/soren/cast

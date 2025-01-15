@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "carrot_on_a_stick"
+      },
+      "title": "Better than Milk",
+      "description": "Cast Clearance using Nullification",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/wand",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }

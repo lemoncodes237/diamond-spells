@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ochre_froglight"
+      },
+      "frame": "goal",
+      "title": "Light Bulb",
+      "description": "Obtain any type of froglight",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/intermediate/color",
+    "criteria": {
+      "block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+                "items": [
+                    "minecraft:ochre_froglight",
+                    "minecraft:pearlescent_froglight",
+                    "minecraft:verdant_froglight"
+                ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    }
+  }

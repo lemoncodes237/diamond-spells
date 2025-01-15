@@ -33,3 +33,6 @@ scoreboard players set @s ds-malison-normal 0
 scoreboard players set @s ds-malison-ultimate 0
 scoreboard players set @s ds-farmersdelight-normal 0
 scoreboard players set @s ds-farmersdelight-ultimate 0
+scoreboard players set @s ds-soren-normal 0
+scoreboard players set @s ds-soren-ultimate 0
+scoreboard players set @s ds-soren-architect -1

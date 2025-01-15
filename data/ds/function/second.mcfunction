@@ -26,3 +26,6 @@ execute as @a[tag=ascension_2_frenzy] if score @s ds-sahd-frenzy < #ds-tick ds-v
 
 # Malison Curse
 execute as @e[tag=ds_cursed] run function ds:spells/malison/on_curse
+
+# End of Soren Ultimate
+execute as @a[tag=ds_architect] if score @s ds-soren-architect < #ds-tick ds-var run function ds:spells/soren/end_ultimate

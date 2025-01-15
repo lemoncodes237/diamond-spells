@@ -22,6 +22,9 @@ scoreboard players set @e[type=marker,tag=temp_erad,distance=..50,limit=1] ds-ma
 scoreboard players set @e[type=marker,tag=temp_erad,distance=..50,limit=1] ds-var -5
 execute as @e[type=marker,tag=temp_erad,distance=..50,limit=1] at @s positioned ~ ~3 ~ as @e[distance=..12.3,type=!#ds:immune,tag=!malison_caster] if score @s ds-malison-curse matches 1.. run scoreboard players operation @e[type=marker,tag=temp_erad,distance=..5,limit=1] ds-malison-curse += @s ds-malison-curse
 
+# Check if over 100 for advancement
+execute if score @e[type=marker,tag=temp_erad,distance=..5,limit=1] ds-malison-curse matches 100.. run advancement grant @s only ds:adv/hard/malison
+
 # Ascension 1: Eradicate the Cursed
 execute if score @s ds-ascension matches 1.. run tag @e[type=marker,tag=temp_erad,distance=..50,limit=1] add ascension_1_erad
 # Ascension 2: Base Strike

@@ -1,0 +1,42 @@
+{
+    "parent": "ds:adv/easy/easy",
+    "criteria": {
+      "in_ruins": {
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "minecraft:trail_ruins"
+                }
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:location"
+      }
+    },
+    "display": {
+      "description": "Find a trail ruin",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:brewer_pottery_sherd"
+      },
+      "title": "What is this?",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "in_ruins"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    },
+    "sends_telemetry_event": true
+  }

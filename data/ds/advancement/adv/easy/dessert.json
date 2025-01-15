@@ -1,0 +1,48 @@
+{
+    "parent": "ds:adv/easy/easy",
+    "criteria": {
+      "milk": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:milk_bucket"
+            }
+          ]
+        }
+      },
+      "cookie": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:cookie"
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+      "description": "Get a milk bucket and a cookie",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:cookie"
+      },
+      "title": "A Nice Dessert",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "cookie"
+      ],
+      [
+        "milk"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    },
+    "sends_telemetry_event": true
+  }

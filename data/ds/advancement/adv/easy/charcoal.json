@@ -9,7 +9,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "ds:adv/easy/easy",
+    "parent": "ds:adv/easy/wooden_sword",
     "criteria": {
       "charcoal": {
         "trigger": "minecraft:inventory_changed",

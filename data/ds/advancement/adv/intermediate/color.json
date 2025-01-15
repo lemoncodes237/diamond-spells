@@ -1,0 +1,229 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:yellow_dye"
+      },
+      "title": "World of Color",
+      "description": "Get every type of dye",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/intermediate/intermediate",
+    "criteria": {
+      "white": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "white_dye"
+            }
+          ]
+        }
+      },
+      "gray": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "gray_dye"
+            }
+          ]
+        }
+      },
+      "brown": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "brown_dye"
+            }
+          ]
+        }
+      },
+      "orange": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "orange_dye"
+            }
+          ]
+        }
+      },
+      "lime": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "lime_dye"
+            }
+          ]
+        }
+      },
+      "cyan": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "cyan_dye"
+            }
+          ]
+        }
+      },
+      "blue": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "blue_dye"
+            }
+          ]
+        }
+      },
+      "magenta": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:magenta_dye"
+            }
+          ]
+        }
+      },
+      "light_gray": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:light_gray_dye"
+            }
+          ]
+        }
+      },
+      "black": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "black_dye"
+            }
+          ]
+        }
+      },
+      "red": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "red_dye"
+            }
+          ]
+        }
+      },
+      "yellow": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "yellow_dye"
+            }
+          ]
+        }
+      },
+      "green": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "green_dye"
+            }
+          ]
+        }
+      },
+      "light_blue": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "light_blue_dye"
+            }
+          ]
+        }
+      },
+      "purple": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "purple_dye"
+            }
+          ]
+        }
+      },
+      "pink": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "pink_dye"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "white"
+      ],
+      [
+        "gray"
+      ],
+      [
+        "brown"
+      ],
+      [
+        "orange"
+      ],
+      [
+        "lime"
+      ],
+      [
+        "cyan"
+      ],
+      [
+        "blue"
+      ],
+      [
+        "magenta"
+      ],
+      [
+        "light_gray"
+      ],
+      [
+        "black"
+      ],
+      [
+        "red"
+      ],
+      [
+        "yellow"
+      ],
+      [
+        "green"
+      ],
+      [
+        "light_blue"
+      ],
+      [
+        "purple"
+      ],
+      [
+        "pink"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    }
+  }

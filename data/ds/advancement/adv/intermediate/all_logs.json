@@ -1,0 +1,164 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:oak_log"
+      },
+      "title": "Treehugger",
+      "description": "Get every type of log",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/intermediate/ancient_city",
+    "criteria": {
+      "oak": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "oak_log"
+            }
+          ]
+        }
+      },
+      "birch": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "birch_log"
+            }
+          ]
+        }
+      },
+      "spruce": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "spruce_log"
+            }
+          ]
+        }
+      },
+      "jungle": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "jungle_log"
+            }
+          ]
+        }
+      },
+      "dark_oak": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "dark_oak_log"
+            }
+          ]
+        }
+      },
+      "acacia": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "acacia_log"
+            }
+          ]
+        }
+      },
+      "cherry": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "cherry_log"
+            }
+          ]
+        }
+      },
+      "pale": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "pale_oak_log"
+            }
+          ]
+        }
+      },
+      "crimson": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:crimson_stem"
+            }
+          ]
+        }
+      },
+      "warped": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:warped_stem"
+            }
+          ]
+        }
+      },
+      "mangrove": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "mangrove_log"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "oak"
+      ],
+      [
+        "acacia"
+      ],
+      [
+        "birch"
+      ],
+      [
+        "cherry"
+      ],
+      [
+        "crimson"
+      ],
+      [
+        "dark_oak"
+      ],
+      [
+        "jungle"
+      ],
+      [
+        "mangrove"
+      ],
+      [
+        "pale"
+      ],
+      [
+        "spruce"
+      ],
+      [
+        "warped"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    }
+  }

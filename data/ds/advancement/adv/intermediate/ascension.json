@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "carrot_on_a_stick"
+      },
+      "title": "Ascension",
+      "description": "Ascend a wand using two copies of it",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/intermediate/intermediate",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    }
+  }

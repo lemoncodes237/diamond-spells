@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "carrot_on_a_stick"
+      },
+      "title": "Sacrifice",
+      "description": "Obtain a wand at Ascension 5",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/intermediate/legendary",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    }
+  }

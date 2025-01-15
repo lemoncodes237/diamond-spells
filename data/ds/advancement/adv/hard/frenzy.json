@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "netherite_sword"
+      },
+      "title": "Sharpness Fist",
+      "description": "Using Sahd, get Strength 50",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/hard/malison",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_hard"
+    }
+  }

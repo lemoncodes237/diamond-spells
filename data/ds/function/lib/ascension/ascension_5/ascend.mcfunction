@@ -1,3 +1,5 @@
+advancement grant @s only ds:adv/intermediate/max_ascension
+
 execute if score @s ds-reg1 matches 1 run return run function ds:give/jumper_ascension_5
 execute if score @s ds-reg1 matches 2 run return run function ds:give/conductors_baton_ascension_5
 execute if score @s ds-reg1 matches 3 run return run function ds:give/calamity_ascension_5

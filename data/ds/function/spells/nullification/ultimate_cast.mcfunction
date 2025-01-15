@@ -1,4 +1,4 @@
-# Ultimate - Gold Rush
+# Ultimate - Clearance
 
 # Set score if needed
 execute unless score @s ds-nullification-ultimate matches 0.. run scoreboard players set @s ds-nullification-ultimate 0
@@ -22,3 +22,5 @@ scoreboard players add @s ds-nullification-ultimate 600
 
 # Ascension 1: Veto
 execute if score @s ds-ascension matches 1.. run scoreboard players remove @s ds-nullification-ultimate 120
+
+advancement grant @s only ds:adv/easy/better_than_milk

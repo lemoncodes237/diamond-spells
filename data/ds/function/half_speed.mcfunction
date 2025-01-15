@@ -26,3 +26,6 @@ execute as @e[type=marker,tag=incoming_eye_attack] at @s run function ds:spells/
 
 # Malison Ultimate
 execute as @e[type=marker,tag=eradication_of_benevolence] at @s run function ds:spells/malison/eradication_of_benevolence
+
+# Soren Normal Attack
+execute as @e[type=falling_block,tag=soren_proj] at @s run function ds:spells/soren/block_damage

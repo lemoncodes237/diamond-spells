@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "black_concrete"
+      },
+      "title": "Annihilation of Benevolence",
+      "description": "Using Malison, create a Force of Eradication that deals at least 100 damage",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/hard/max_ascension_legendary",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_hard"
+    }
+  }
