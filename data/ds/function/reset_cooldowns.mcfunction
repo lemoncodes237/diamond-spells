@@ -29,3 +29,7 @@ scoreboard players set @s ds-sahd-frenzy -1
 scoreboard players set @s ds-sizeshifter-normal 0
 scoreboard players set @s ds-sizeshifter-ultimate 0
 scoreboard players set @s ds-sizeshifter-shrink -1
+scoreboard players set @s ds-malison-normal 0
+scoreboard players set @s ds-malison-ultimate 0
+scoreboard players set @s ds-farmersdelight-normal 0
+scoreboard players set @s ds-farmersdelight-ultimate 0

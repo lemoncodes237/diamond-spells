@@ -10,3 +10,5 @@ execute if score @s ds-reg1 matches 9 run return run function ds:give/size_shift
 execute if score @s ds-reg1 matches 10 run return run function ds:give/oceanic_judge_ascension_4
 execute if score @s ds-reg1 matches 11 run return run function ds:give/sahd_ascension_4
 execute if score @s ds-reg1 matches 12 run return run function ds:give/clearsight_ascension_4
+execute if score @s ds-reg1 matches 13 run return run function ds:give/malison_ascension_4
+execute if score @s ds-reg1 matches 14 run return run function ds:give/farmers_delight_ascension_4

@@ -24,3 +24,5 @@ execute if score @s ds-var matches 9 run return run function ds:spells/sizeshift
 execute if score @s ds-var matches 10 run return run function ds:spells/oceanicjudge/cast
 execute if score @s ds-var matches 11 run return run function ds:spells/sahd/cast
 execute if score @s ds-var matches 12 run return run function ds:spells/clearsight/cast
+execute if score @s ds-var matches 13 run return run function ds:spells/malison/cast
+execute if score @s ds-var matches 14 run return run function ds:spells/farmersdelight/cast

@@ -82,3 +82,13 @@ scoreboard objectives add ds-sahd-frenzy dummy
 # Clearsight cooldowns
 scoreboard objectives add ds-clearsight-normal dummy
 scoreboard objectives add ds-clearsight-ultimate dummy
+
+# Malison cooldowns
+scoreboard objectives add ds-malison-normal dummy
+scoreboard objectives add ds-malison-ultimate dummy
+# Curse counter
+scoreboard objectives add ds-malison-curse dummy
+
+# Farmer's Delight cooldowns
+scoreboard objectives add ds-farmersdelight-normal dummy
+scoreboard objectives add ds-farmersdelight-ultimate dummy

@@ -23,3 +23,6 @@ execute as @e[type=marker,tag=oceanicjudge_wave] at @s run function ds:spells/oc
 # Clearsight Ultimate
 execute as @e[type=item_display,tag=ds_all_seeing_eye] at @s run function ds:spells/clearsight/all_seeing_eye
 execute as @e[type=marker,tag=incoming_eye_attack] at @s run function ds:spells/clearsight/cause_damage
+
+# Malison Ultimate
+execute as @e[type=marker,tag=eradication_of_benevolence] at @s run function ds:spells/malison/eradication_of_benevolence

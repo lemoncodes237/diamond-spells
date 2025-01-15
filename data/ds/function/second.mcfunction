@@ -23,3 +23,6 @@ execute as @a[tag=sizeshifter_ultimate] unless score @s ds-sizeshifter-shrink >=
 # Sahd Ultimate
 execute as @a if score @s ds-sahd-frenzy >= #ds-tick ds-var at @s run function ds:spells/sahd/refresh_strength
 execute as @a[tag=ascension_2_frenzy] if score @s ds-sahd-frenzy < #ds-tick ds-var run tag @s remove ascension_2_frenzy
+
+# Malison Curse
+execute as @e[tag=ds_cursed] run function ds:spells/malison/on_curse
