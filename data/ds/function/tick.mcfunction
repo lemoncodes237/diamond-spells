@@ -26,3 +26,6 @@ execute as @e[type=block_display,tag=growth_orb] at @s run function ds:spells/si
 # Do NBT test after the first one
 # From https://www.reddit.com/r/MinecraftCommands/comments/lsv4l3/is_there_any_way_to_make_falling_block_do_not/
 execute as @e[type=falling_block, tag=soren_proj] if entity @s[nbt={Time:1}] run data merge entity @s {BlockState:{Name:"minecraft:wheat"},DropItem:0b}
+
+# Singularity Ultimate
+execute as @e[type=block_display,tag=ds_blackhole] at @s run function ds:spells/singularity/black_hole

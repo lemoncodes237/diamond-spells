@@ -98,3 +98,7 @@ scoreboard objectives add ds-soren-normal dummy
 scoreboard objectives add ds-soren-ultimate dummy
 # Architect timer
 scoreboard objectives add ds-soren-architect dummy
+
+# Singularity cooldowns
+scoreboard objectives add ds-singularity-normal dummy
+scoreboard objectives add ds-singularity-ultimate dummy

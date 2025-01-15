@@ -5,7 +5,7 @@ scoreboard players operation #ds-temp ds-var = @s ds-id
 
 execute as @a if score @s ds-id = #ds-temp ds-var run tag @s add ds_eye_no_target
 
-execute as @e[type=!#ds:immune,distance=..3,tag=!ds_eye_no_target] run damage @s 7 player_attack by @a[tag=ds_eye_no_target,limit=1,sort=nearest]
+execute as @e[type=!#ds:immune,distance=..3,tag=!ds_eye_no_target] run damage @s 7 ds:no_cooldown by @a[tag=ds_eye_no_target,limit=1,sort=nearest]
 
 tag @a remove ds_eye_no_target
 
