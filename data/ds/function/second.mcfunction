@@ -32,3 +32,6 @@ execute as @e[tag=ds_cursed] run function ds:spells/malison/on_curse
 
 # End of Soren Ultimate
 execute as @a[tag=ds_architect] if score @s ds-soren-architect < #ds-tick ds-var run function ds:spells/soren/end_ultimate
+
+# Companion Ultimate
+execute as @e[type=wolf,tag=ds_summon] run function ds:spells/companion/summon

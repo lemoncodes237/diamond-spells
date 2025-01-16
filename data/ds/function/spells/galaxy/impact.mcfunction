@@ -2,9 +2,9 @@
 scoreboard players operation #ds-temp ds-id = @s ds-id
 execute as @a if score @s ds-id = #ds-temp ds-id run tag @s add ds_meteor_caster
 
-execute unless entity @s[tag=galaxy_heavy] as @e[type=!#ds:immune,distance=..8,tag=!ds_meteor_caster] run damage @s 30 player_explosion by @a[tag=ds_meteor_caster,limit=1]
+execute unless entity @s[tag=galaxy_heavy] as @e[type=!#ds:immune,distance=..8,tag=!ds_meteor_caster] run damage @s 40 player_explosion by @a[tag=ds_meteor_caster,limit=1]
 # Ascension 5: Heavy Strike
-execute if entity @s[tag=galaxy_heavy] as @e[type=!#ds:immune,distance=..8,tag=!ds_meteor_caster] run damage @s 36 player_explosion by @a[tag=ds_meteor_caster,limit=1]
+execute if entity @s[tag=galaxy_heavy] as @e[type=!#ds:immune,distance=..8,tag=!ds_meteor_caster] run damage @s 48 player_explosion by @a[tag=ds_meteor_caster,limit=1]
 
 tag @a remove ds_meteor_caster
 

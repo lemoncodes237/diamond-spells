@@ -36,3 +36,4 @@ execute if score @s ds-var matches 13 run return run function ds:spells/malison/
 execute if score @s ds-var matches 14 run return run function ds:spells/farmersdelight/cast
 execute if score @s ds-var matches 15 run return run function ds:spells/soren/cast
 execute if score @s ds-var matches 16 run return run function ds:spells/singularity/cast
+execute if score @s ds-var matches 17 run return run function ds:spells/companion/cast

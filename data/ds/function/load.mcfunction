@@ -109,3 +109,7 @@ scoreboard objectives add ds-soren-architect dummy
 # Singularity cooldowns
 scoreboard objectives add ds-singularity-normal dummy
 scoreboard objectives add ds-singularity-ultimate dummy
+
+# Companion cooldowns
+scoreboard objectives add ds-companion-normal dummy
+scoreboard objectives add ds-companion-ultimate dummy
