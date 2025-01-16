@@ -1,5 +1,8 @@
 scoreboard players set #ds-tick ds-reg2 0
 
+# Banner Information
+execute as @a if score @s banner matches 1.. run function ds:gacha/show_banner
+
 # In the Rush attack of Calamity
 execute as @a[tag=calamity_normal] at @s run function ds:spells/calamity/attack
 # Clear armor stands

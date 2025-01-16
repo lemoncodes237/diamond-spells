@@ -1,2 +1,4 @@
 # Give 3 stars
-give @s diamond 8
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star

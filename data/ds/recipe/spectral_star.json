@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "DDD",
+        "D D",
+        "DDD"
+    ],
+    "key": {
+        "D": "minecraft:diamond"
+    },
+    "result": {
+        "id": "minecraft:carrot_on_a_stick",
+        "count": 1,
+        "components": {
+        "minecraft:custom_name": "[{\"text\":\"Spect\",\"italic\":false,\"color\":\"yellow\"},{\"text\":\"ral\",\"italic\":false,\"color\":\"green\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Star\",\"italic\":false,\"color\":\"aqua\"}]",
+        "minecraft:max_stack_size": 64,
+        "minecraft:item_model": "minecraft:spectral_star",
+        "minecraft:custom_data": {
+            "ds_spectral_star": true
+        },
+        "!minecraft:max_damage": {},
+        "minecraft:lore": [
+            "{\"text\":\"A magical star capable of fulfilling\",\"italic\":false}",
+            "{\"text\":\"wishes. Right-click this star to have\",\"italic\":false}",
+            "{\"text\":\"a chance at obtaining valuable wands.\",\"italic\":false}",
+            "\"\"",
+            "{\"text\":\"The wands on the current banner can be\",\"italic\":false,\"color\":\"white\"}",
+            "{\"text\":\"found using '/trigger banner'.\",\"italic\":false,\"color\":\"white\"}"
+        ],
+        "unbreakable":{"show_in_tooltip":false}
+        }
+    }
+}

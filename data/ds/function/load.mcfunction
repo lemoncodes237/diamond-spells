@@ -5,6 +5,13 @@ scoreboard objectives add ds-var dummy
 scoreboard objectives add ds-ascension dummy
 scoreboard objectives add ds-jump minecraft.custom:jump
 scoreboard objectives add ds-id dummy
+scoreboard objectives add ds-pity dummy
+scoreboard objectives add ds-rare-pity dummy
+
+# Banner
+scoreboard objectives add banner trigger
+# For stats purposes
+scoreboard objectives add ds-pulls dummy
 
 # Registers
 scoreboard objectives add ds-reg1 dummy

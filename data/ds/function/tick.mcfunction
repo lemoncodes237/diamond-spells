@@ -6,6 +6,13 @@ scoreboard players add #ds-tick ds-reg2 1
 execute if score #ds-tick ds-reg1 matches 20.. run function ds:second
 execute if score #ds-tick ds-reg2 matches 2.. run function ds:half_speed
 
+# Check for new day
+execute store result score #ds-tick ds-reg3 run time query daytime
+execute if score #ds-tick ds-reg3 matches 1 run function ds:new_day
+
+# Gacha!
+execute as @e[type=item_display,tag=ds_spectral_star] at @s run function ds:gacha/get_ready
+
 # These should be run every tick
 # Galaxy Ultimate
 execute as @e[tag=galaxy_meteor_location,type=marker] at @s run function ds:spells/galaxy/meteor_circle

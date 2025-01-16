@@ -36,3 +36,5 @@ scoreboard players set @s ds-farmersdelight-ultimate 0
 scoreboard players set @s ds-soren-normal 0
 scoreboard players set @s ds-soren-ultimate 0
 scoreboard players set @s ds-soren-architect -1
+scoreboard players set @s ds-singularity-normal 0
+scoreboard players set @s ds-singularity-ultimate 0

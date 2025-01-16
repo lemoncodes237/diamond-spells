@@ -1,2 +1,2 @@
 # Give 1 star
-give @s diamond 8
+function ds:give/spectral_star

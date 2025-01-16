@@ -2,6 +2,9 @@ scoreboard players set #ds-tick ds-reg1 0
 
 # Runs every second
 
+# Allow players to view banner information
+scoreboard players enable @a banner
+
 # ID Creation
 execute as @a unless score @s ds-id matches 0.. run function ds:generate_id
 
