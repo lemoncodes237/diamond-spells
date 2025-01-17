@@ -38,3 +38,8 @@ scoreboard players set @s ds-soren-ultimate 0
 scoreboard players set @s ds-soren-architect -1
 scoreboard players set @s ds-singularity-normal 0
 scoreboard players set @s ds-singularity-ultimate 0
+scoreboard players set @s ds-companion-normal 0
+scoreboard players set @s ds-companion-ultimate 0
+scoreboard players set @s ds-hydrogen-normal 0
+scoreboard players set @s ds-hydrogen-ultimate 0
+# Nuclear is not needed here as it is only checked every second

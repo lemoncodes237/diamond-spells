@@ -6,6 +6,7 @@ execute unless score @s ds-companion-ultimate matches 0.. run scoreboard players
 scoreboard players operation @s ds-reg1 = @s ds-companion-ultimate
 execute if score @s ds-reg1 > #ds-tick ds-var run return run function ds:lib/cooldown
 
+playsound entity.wolf.growl master @a ~ ~ ~
 summon wolf ~ ~ ~ {Tags:["ds_summon","summon_temp"]}
 data modify entity @e[type=wolf,distance=..2,tag=summon_temp,limit=1] Owner set from entity @s UUID
 attribute @e[type=wolf,distance=..2,tag=summon_temp,limit=1] max_health base set 40

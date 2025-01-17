@@ -26,6 +26,7 @@ scoreboard objectives add ds-reset dummy
 execute unless score #ds-tick ds-reset matches 0.. run scoreboard players set #ds-tick ds-reset 0
 
 scoreboard players set #ds-twenty ds-var 20
+scoreboard players set #ds-two ds-var 2
 
 # Jumper cooldowns
 scoreboard objectives add ds-jumper-normal dummy
@@ -113,3 +114,9 @@ scoreboard objectives add ds-singularity-ultimate dummy
 # Companion cooldowns
 scoreboard objectives add ds-companion-normal dummy
 scoreboard objectives add ds-companion-ultimate dummy
+
+# Hydrogen cooldowns
+scoreboard objectives add ds-hydrogen-normal dummy
+scoreboard objectives add ds-hydrogen-ultimate dummy
+# Nuclear timer
+scoreboard objectives add ds-hydrogen-nuclear dummy

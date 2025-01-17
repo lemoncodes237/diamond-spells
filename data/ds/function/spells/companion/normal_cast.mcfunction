@@ -10,7 +10,7 @@ execute unless entity @e[type=#ds:enemies,distance=..9,tag=!companion_caster] ru
 
 execute as @e[type=#ds:enemies,distance=..9,tag=!companion_caster,sort=nearest,limit=1] run tag @s add ds_track_target
 
-execute anchored eyes facing entity @e[tag=ds_track_target,distance=..10,limit=1,type=#ds:enemies] eyes run function ds:spells/companion/beam
+execute anchored eyes facing entity @e[tag=ds_track_target,distance=..10,limit=1,type=#ds:enemies] feet run function ds:spells/companion/beam
 
 tag @e[tag=ds_track_target,distance=..10,type=#ds:enemies] remove ds_track_target
 

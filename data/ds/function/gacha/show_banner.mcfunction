@@ -1,6 +1,6 @@
 scoreboard players set @s banner 0
 
-tellraw @s "Current Banners:"
+tellraw @s "Current Banner:"
 tellraw @s {"text":"Featured Legendary","color":"gold"}
 function ds:gacha/display_legendary
 tellraw @s ""

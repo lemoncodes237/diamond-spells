@@ -36,3 +36,6 @@ execute as @e[type=falling_block, tag=soren_proj] if entity @s[nbt={Time:1}] run
 
 # Singularity Ultimate
 execute as @e[type=block_display,tag=ds_blackhole] at @s run function ds:spells/singularity/black_hole
+
+# Hydrogen Normal Attack
+execute as @e[type=item_display,tag=ds_tnt_piston] at @s run function ds:spells/hydrogen/tnt_piston
