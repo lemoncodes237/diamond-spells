@@ -4,8 +4,8 @@
 execute store result score #ds-banner ds-var run random value 1..7
 
 # Change this to number of rares
-execute store result score #ds-banner ds-reg1 run random value 1..9
-execute store result score #ds-banner ds-reg2 run random value 1..8
+execute store result score #ds-banner ds-reg1 run random value 1..12
+execute store result score #ds-banner ds-reg2 run random value 1..11
 
 # Avoid the same rares
 execute if score #ds-banner ds-reg2 >= #ds-banner ds-reg1 run scoreboard players add #ds-banner ds-reg2 1

@@ -1,3 +1,5 @@
+# Y:J Creations
+
 scoreboard players set @s ds-calamity-deathshower -1
 scoreboard players set @s ds-calamity-normal 0
 scoreboard players set @s ds-calamity-ultimate 0
@@ -43,3 +45,6 @@ scoreboard players set @s ds-companion-ultimate 0
 scoreboard players set @s ds-hydrogen-normal 0
 scoreboard players set @s ds-hydrogen-ultimate 0
 # Nuclear is not needed here as it is only checked every second
+scoreboard players set @s ds-blunder-normal 0
+scoreboard players set @s ds-blunder-ultimate 0
+# Same for Rf2

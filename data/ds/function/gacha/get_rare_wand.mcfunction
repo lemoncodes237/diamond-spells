@@ -15,3 +15,6 @@ execute if score @s ds-reg2 matches 6 run return run function ds:give/nullificat
 execute if score @s ds-reg2 matches 7 run return run function ds:give/oceanic_judge
 execute if score @s ds-reg2 matches 8 run return run function ds:give/size_shifter
 execute if score @s ds-reg2 matches 9 run return run function ds:give/soren
+execute if score @s ds-reg2 matches 10 run return run function ds:give/companion
+execute if score @s ds-reg2 matches 11 run return run function ds:give/hydrogen
+execute if score @s ds-reg2 matches 12 run return run function ds:give/blunder

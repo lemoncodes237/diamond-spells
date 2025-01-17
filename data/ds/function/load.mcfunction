@@ -120,3 +120,9 @@ scoreboard objectives add ds-hydrogen-normal dummy
 scoreboard objectives add ds-hydrogen-ultimate dummy
 # Nuclear timer
 scoreboard objectives add ds-hydrogen-nuclear dummy
+
+# Blunder cooldowns
+scoreboard objectives add ds-blunder-normal dummy
+scoreboard objectives add ds-blunder-ultimate dummy
+# Rf2 timer
+scoreboard objectives add ds-blunder-rf2 dummy

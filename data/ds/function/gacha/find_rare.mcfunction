@@ -7,3 +7,6 @@ execute if score #ds-banner ds-reg3 matches 6 run return run function ds:gacha/w
 execute if score #ds-banner ds-reg3 matches 7 run return run function ds:gacha/wands/oceanic_judge
 execute if score #ds-banner ds-reg3 matches 8 run return run function ds:gacha/wands/size_shifter
 execute if score #ds-banner ds-reg3 matches 9 run return run function ds:gacha/wands/soren
+execute if score #ds-banner ds-reg3 matches 10 run return run function ds:gacha/wands/companion
+execute if score #ds-banner ds-reg3 matches 11 run return run function ds:gacha/wands/hydrogen
+execute if score #ds-banner ds-reg3 matches 12 run return run function ds:gacha/wands/blunder

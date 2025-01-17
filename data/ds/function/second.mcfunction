@@ -38,3 +38,6 @@ execute as @e[type=wolf,tag=ds_summon] at @s run function ds:spells/companion/su
 
 # Hydrogen Ultimate
 execute as @a[tag=ds_nuclear] at @s run function ds:spells/hydrogen/nuclear
+
+# Blunder Ultimate
+execute as @a[tag=ds_rf2] at @s run function ds:spells/blunder/rf2
