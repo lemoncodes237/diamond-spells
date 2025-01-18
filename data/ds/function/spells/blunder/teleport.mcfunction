@@ -1,6 +1,7 @@
 scoreboard players add @s ds-var 1
 
-execute unless block ~ ~ ~ #ds:air unless block ~ ~1 ~ #ds:air run return run tp @s ^ ^ ^-1
+execute unless block ~ ~ ~ #ds:air run return run tp @s ^ ^ ^-1
+execute unless block ~ ~1 ~ #ds:air run return run tp @s ^ ^ ^-1
 execute if score @s ds-var >= #ds-temp ds-var run return run tp @s ^ ^ ^-1
 
 particle sweep_attack ~ ~1 ~ 0.5 0.5 0.5 0 3
