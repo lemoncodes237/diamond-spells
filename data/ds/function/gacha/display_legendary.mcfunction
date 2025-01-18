@@ -5,3 +5,4 @@ execute if score #ds-banner ds-var matches 4 run return run function ds:gacha/wa
 execute if score #ds-banner ds-var matches 5 run return run function ds:gacha/wands/malison
 execute if score #ds-banner ds-var matches 6 run return run function ds:gacha/wands/sahd
 execute if score #ds-banner ds-var matches 7 run return run function ds:gacha/wands/singularity
+execute if score #ds-banner ds-var matches 8 run return run function ds:gacha/wands/absolute_zero

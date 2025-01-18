@@ -126,3 +126,7 @@ scoreboard objectives add ds-blunder-normal dummy
 scoreboard objectives add ds-blunder-ultimate dummy
 # Rf2 timer
 scoreboard objectives add ds-blunder-rf2 dummy
+
+# Absolute Zero cooldowns
+scoreboard objectives add ds-absolutezero-normal dummy
+scoreboard objectives add ds-absolutezero-ultimate dummy

@@ -1,7 +1,7 @@
 # Different from wand types, unfortunately
 
 # Change this to number of legendaries
-execute store result score #ds-banner ds-var run random value 1..7
+execute store result score #ds-banner ds-var run random value 1..8
 
 # Change this to number of rares
 execute store result score #ds-banner ds-reg1 run random value 1..12

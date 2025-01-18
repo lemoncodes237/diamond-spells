@@ -32,3 +32,6 @@ execute as @e[type=marker,tag=eradication_of_benevolence] at @s run function ds:
 
 # Soren Normal Attack
 execute as @e[type=falling_block,tag=soren_proj] at @s run function ds:spells/soren/block_damage
+
+# Absolute Zero Normal Attack
+execute as @e[type=falling_block,tag=ds_absolutezero_proj] at @s run function ds:spells/absolutezero/block_damage

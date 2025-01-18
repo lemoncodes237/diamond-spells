@@ -39,3 +39,4 @@ execute if score @s ds-var matches 16 run return run function ds:spells/singular
 execute if score @s ds-var matches 17 run return run function ds:spells/companion/cast
 execute if score @s ds-var matches 18 run return run function ds:spells/hydrogen/cast
 execute if score @s ds-var matches 19 run return run function ds:spells/blunder/cast
+execute if score @s ds-var matches 20 run return run function ds:spells/absolutezero/cast

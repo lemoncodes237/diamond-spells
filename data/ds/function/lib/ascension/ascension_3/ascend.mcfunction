@@ -17,3 +17,4 @@ execute if score @s ds-reg1 matches 16 run return run function ds:give/singulari
 execute if score @s ds-reg1 matches 17 run return run function ds:give/companion_ascension_3
 execute if score @s ds-reg1 matches 18 run return run function ds:give/hydrogen_ascension_3
 execute if score @s ds-reg1 matches 19 run return run function ds:give/blunder_ascension_3
+execute if score @s ds-reg1 matches 20 run return run function ds:give/absolute_zero_ascension_3

@@ -1,7 +1,7 @@
 scoreboard players add @s ds-var 1
 scoreboard players add @s ds-reg1 1
 
-execute if score @s ds-var matches 140.. run return run function ds:spells/singularity/end_ultimate
+execute if score @s ds-var matches 240.. run return run function ds:spells/singularity/end_ultimate
 
 # Find the person who created the black hole
 scoreboard players operation #ds-temp ds-id = @s ds-id

@@ -9,10 +9,10 @@ execute as @e[tag=direction,limit=1] positioned 0.0 0.0 0.0 run function ds:spel
 # summon the projectile entity. Again, it might make sense to summon the projectile at the players eyes
 # and in front of them, so we'll do that in this example
 # Change this to invisible item in the future.
-execute if score @s ds-ascension matches 0..1 anchored eyes run summon falling_block ^ ^ ^1 {Tags:["soren_proj","soren_temp"],BlockState:{Name:"cobblestone"}}
+execute if score @s ds-ascension matches 0..1 anchored eyes run summon falling_block ^ ^ ^1 {Tags:["soren_proj","soren_temp",ds_block_proj],BlockState:{Name:"cobblestone"}}
 
 # Ascension 2: Obsidian Launch
-execute if score @s ds-ascension matches 2.. anchored eyes run summon falling_block ^ ^ ^1 {Tags:["soren_proj","soren_temp","ascension_2_soren"],BlockState:{Name:"obsidian"}}
+execute if score @s ds-ascension matches 2.. anchored eyes run summon falling_block ^ ^ ^1 {Tags:["soren_proj","soren_temp","ascension_2_soren",ds_block_proj],BlockState:{Name:"obsidian"}}
 
 
 # store the previously stored Motion into the projectile entity
