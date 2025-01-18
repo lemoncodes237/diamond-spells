@@ -1,3 +1,7 @@
+# Don't drop ice if there is a block on it or right below it
+$execute unless block ~$(reg1) ~10 ~$(reg2) #air run return 0
+$execute unless block ~$(reg1) ~9 ~$(reg2) #air run return 0
+
 $execute if score @s ds-ascension matches 0..3 run summon falling_block ~$(reg1) ~10 ~$(reg2) {Tags:["ds_absolutezero_proj","ds_block_proj","ds_absolutezero_proj_temp"],BlockState:{Name:"ice"}}
 # Ascension 4: Blinding Ice
 $execute if score @s ds-ascension matches 4.. run summon falling_block ~$(reg1) ~10 ~$(reg2) {Tags:["ds_absolutezero_proj","ds_block_proj","ds_absolutezero_proj_temp","ascension_4_iceology"],BlockState:{Name:"ice"}}
