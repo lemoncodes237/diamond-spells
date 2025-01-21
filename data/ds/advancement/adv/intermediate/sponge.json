@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:sponge"
+      },
+      "frame": "goal",
+      "title": "Draining Water",
+      "description": "Obtain a sponge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/intermediate/intermediate5",
+    "criteria": {
+      "block": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:sponge"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    }
+  }

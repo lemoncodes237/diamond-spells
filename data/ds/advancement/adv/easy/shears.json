@@ -1,0 +1,74 @@
+{
+    "parent": "ds:adv/easy/easy7",
+    "criteria": {
+      "short_grass": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:short_grass"
+            }
+          ]
+        }
+      },
+      "fern": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:fern"
+            }
+          ]
+        }
+      },
+      "seagrass": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:seagrass"
+            }
+          ]
+        }
+      },
+      "vines": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:vine"
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+      "description": "Acquire short grass, fern, vines, and seagrass",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:shears"
+      },
+      "title": "Shears Only",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "short_grass"
+      ],
+      [
+        "fern"
+      ],
+      [
+        "seagrass"
+      ],
+      [
+        "vines"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    },
+    "sends_telemetry_event": true
+  }

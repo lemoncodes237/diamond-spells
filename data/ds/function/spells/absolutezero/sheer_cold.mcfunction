@@ -1,6 +1,6 @@
 scoreboard players add @s ds-var 1
 
-execute if score @s ds-var matches 200.. run return run kill @s
+execute if score @s ds-var matches 300.. run return run kill @s
 
 particle snowflake ~ ~ ~ 15 4 15 0.05 60
 

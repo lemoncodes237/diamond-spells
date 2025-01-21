@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "slime_block"
+      },
+      "title": "Stick With Me",
+      "description": "Be within 10 blocks of both a big Slime and a baby cow at the same time",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/easy6",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }

@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "id": "carrot_on_a_stick"
+      },
+      "title": "Pig Rider",
+      "description": "Ride a pig",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/painting",
+    "criteria": {
+        "pig": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+            "player": {
+                "vehicle": {
+                "type": "minecraft:pig"
+                }
+            }
+            }
+    }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }

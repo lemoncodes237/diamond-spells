@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "ds:adv/hard/netherite_block",
+    "parent": "ds:adv/hard/hard",
     "criteria": {
       "block": {
         "trigger": "minecraft:inventory_changed",

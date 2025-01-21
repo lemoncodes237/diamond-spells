@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ender_pearl"
+      },
+      "title": "Annoying Critter",
+      "description": "Kill an endermite",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/easy9",
+    "criteria": {
+      "iron": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:endermite"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }

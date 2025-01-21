@@ -1,0 +1,100 @@
+{
+    "parent": "ds:adv/easy/diamond",
+    "criteria": {
+      "stone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:stone"
+            }
+          ]
+        }
+      },
+      "deepslate": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:deepslate"
+            }
+          ]
+        }
+      },
+      "tuff": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:tuff"
+            }
+          ]
+        }
+      },
+      "andesite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:andesite"
+            }
+          ]
+        }
+      },
+      "granite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:granite"
+            }
+          ]
+        }
+      },
+      "diorite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:diorite"
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+      "description": "Get stone, deepslate, andesite, granite, diorite, and tuff",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:stone"
+      },
+      "title": "Underground",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "stone"
+      ],
+      [
+        "deepslate"
+      ],
+      [
+        "andesite"
+      ],
+      [
+        "diorite"
+      ],
+      [
+        "granite"
+      ],
+      [
+        "tuff"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    },
+    "sends_telemetry_event": true
+  }

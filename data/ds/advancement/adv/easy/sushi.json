@@ -1,0 +1,65 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:salmon"
+      },
+      "title": "Sushi",
+      "description": "Eat raw cod, raw salmon, tropical fish, and pufferfish (don’t do the last part in real life)",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/easy3",
+    "criteria": {
+      "cod": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cod"
+          }
+        }
+      },
+      "salmon": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:salmon"
+          }
+        }
+      },
+      "pufferfish": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:pufferfish"
+          }
+        }
+      },
+      "tropical_fish": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:tropical_fish"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "cod"
+      ],
+      [
+        "salmon"
+      ],
+      [
+        "tropical_fish"
+      ],
+      [
+        "pufferfish"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }

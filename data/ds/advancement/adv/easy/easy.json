@@ -8,7 +8,7 @@
     "display": {
       "frame": "task",
       "announce_to_chat": false,
-      "description": "Easy advancements that grant 1 star",
+      "description": "Easy advancements that grant 5 Spectral Stars",
       "icon": {
         "count": 1,
         "id": "lime_concrete"

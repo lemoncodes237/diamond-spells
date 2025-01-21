@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "traded": {
+        "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+      "function": "ds:daily/spectral_star"
+    }
+  }

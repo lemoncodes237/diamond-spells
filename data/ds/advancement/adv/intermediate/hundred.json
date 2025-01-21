@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "carrot_on_a_stick",
+        "components": {
+            "minecraft:item_model": "ds:clearsight"
+          }
+      },
+      "title": "Guaranteed Legendary",
+      "description": "Use 100 Spectral Stars",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/intermediate/legendary",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    }
+  }

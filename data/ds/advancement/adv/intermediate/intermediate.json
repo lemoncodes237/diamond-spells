@@ -8,7 +8,7 @@
     "display": {
       "frame": "goal",
       "announce_to_chat": false,
-      "description": "Intermediate advancements that grant 3 stars",
+      "description": "Intermediate advancements that grant 10 Spectral Stars",
       "icon": {
         "count": 1,
         "id": "yellow_concrete"

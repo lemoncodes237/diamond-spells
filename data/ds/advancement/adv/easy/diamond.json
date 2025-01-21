@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:diamond"
+      },
+      "title": "Eighth of a Star",
+      "description": "Get a diamond. It is not recommended to use diamonds to craft Spectral Stars in the early game.",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/easy1",
+    "criteria": {
+      "charcoal": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:diamond"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }

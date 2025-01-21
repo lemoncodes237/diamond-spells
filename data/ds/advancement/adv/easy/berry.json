@@ -1,0 +1,43 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:sweet_berries"
+      },
+      "title": "Very Berry",
+      "description": "Eat glow berries and sweet berries",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/slimecow",
+    "criteria": {
+      "sweet_berries": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:sweet_berries"
+          }
+        }
+      },
+      "glow_berries": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:glow_berries"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "glow_berries"
+      ],
+      [
+        "sweet_berries"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }

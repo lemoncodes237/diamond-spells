@@ -8,7 +8,7 @@
     "display": {
       "frame": "challenge",
       "announce_to_chat": false,
-      "description": "Hard advancements that grant 5 stars",
+      "description": "Hard advancements that grant 20 Spectral Stars",
       "icon": {
         "count": 1,
         "id": "red_concrete"

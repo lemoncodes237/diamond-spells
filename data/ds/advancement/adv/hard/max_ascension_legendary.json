@@ -1,7 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "carrot_on_a_stick"
+        "id": "carrot_on_a_stick",
+        "components": {
+            "minecraft:item_model": "ds:galaxy"
+          }
       },
       "title": "Unlimited Power",
       "description": "Obtain an Ascension 5 legendary wand",
@@ -10,7 +13,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "ds:adv/hard/hard",
+    "parent": "ds:adv/hard/thousand",
     "criteria": {
       "impossible": {
         "trigger": "minecraft:impossible"

@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Discord","color":"aqua"},"\nYou can join the YJ Datapacks Discord ",{"text":"here","bold":true,"underlined":true,"clickEvent":{"action":"open_url","value":"https://discord.gg/THhab3yq"},"color":"dark_aqua"},".\n "]

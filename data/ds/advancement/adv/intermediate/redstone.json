@@ -1,0 +1,153 @@
+{
+    "parent": "ds:adv/intermediate/intermediate1",
+    "criteria": {
+      "redstone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:redstone"
+            }
+          ]
+        }
+      },
+      "repeater": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:repeater"
+            }
+          ]
+        }
+      },
+      "comparator": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:comparator"
+            }
+          ]
+        }
+      },
+      "piston": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:piston"
+            }
+          ]
+        }
+      },
+      "sticky_piston": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:sticky_piston"
+            }
+          ]
+        }
+      },
+      "observer": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:observer"
+            }
+          ]
+        }
+      },
+      "dispenser": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:dispenser"
+            }
+          ]
+        }
+      },
+      "dropper": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:dropper"
+            }
+          ]
+        }
+      },
+      "sculk_sensor": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:sculk_sensor"
+            }
+          ]
+        }
+      },
+      "calibrated_sculk_sensor": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:calibrated_sculk_sensor"
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+      "description": "Obtain redstone, redstone repeater, redstone comparator, piston, sticky piston, observer, dispenser, dropper, sculk sensor, and calibrated sculk sensor",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:redstone"
+      },
+      "title": "Engineer",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "redstone"
+      ],
+      [
+        "repeater"
+      ],
+      [
+        "comparator"
+      ],
+      [
+        "piston"
+      ],
+      [
+        "sticky_piston"
+      ],
+      [
+        "dropper"
+      ],
+      [
+        "dispenser"
+      ],
+      [
+        "observer"
+      ],
+      [
+        "sculk_sensor"
+      ],
+      [
+        "calibrated_sculk_sensor"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    },
+    "sends_telemetry_event": true
+  }

@@ -1,7 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "carrot_on_a_stick"
+        "id": "carrot_on_a_stick",
+        "components": {
+            "minecraft:item_model": "ds:absolute_zero"
+          }
       },
       "title": "Legendary",
       "description": "Obtain a legendary wand",

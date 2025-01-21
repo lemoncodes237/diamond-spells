@@ -1,0 +1,76 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cooked_beef"
+      },
+      "title": "Meat Lovers'",
+      "description": "Eat steak, cooked porkchop, cooked chicken, cooked mutton, and cooked rabbit",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/sushi",
+    "criteria": {
+      "beef": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cooked_beef"
+          }
+        }
+      },
+      "pork": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cooked_porkchop"
+          }
+        }
+      },
+      "chicken": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cooked_chicken"
+          }
+        }
+      },
+      "mutton": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cooked_mutton"
+          }
+        }
+      },
+      "rabbit": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:cooked_rabbit"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "beef"
+      ],
+      [
+        "pork"
+      ],
+      [
+        "chicken"
+      ],
+      [
+        "mutton"
+      ],
+      [
+        "rabbit"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }

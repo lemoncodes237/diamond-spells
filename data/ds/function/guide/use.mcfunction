@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Using Wands","color":"aqua"},"\nEach wand has a Normal Attack and an Ultimate. You can cast a Normal Attack by right-clicking with your wand. You can cast the Ultimate by right-clicking with your wand while you are crouching.\n\nThe spells all have cooldowns; after you cast a spell, you cannot cast it again until that cooldown is over."]

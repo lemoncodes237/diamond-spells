@@ -2,8 +2,19 @@ scoreboard players set #ds-tick ds-reg1 0
 
 # Runs every second
 
+execute as @a at @s run function ds:advancement
+
 # Allow players to view banner information
 scoreboard players enable @a banner
+# And dailies
+scoreboard players enable @a daily
+# And guide
+scoreboard players enable @a guide
+
+# What if banner doesn't exist? CREATE ONE!
+execute unless score #ds-banner ds-var matches -2147483648..2147483647 run function ds:gacha/create_banner
+# No daily? CREATE ONE!
+execute as @a unless score @s ds-daily matches -2147483648..2147483647 run function ds:daily/create_daily
 
 # ID Creation
 execute as @a unless score @s ds-id matches 0.. run function ds:generate_id

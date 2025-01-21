@@ -20,7 +20,7 @@ execute as @e[type=!#ds:immune,distance=..21,tag=!ds_blackhole_creator] at @s ru
 execute if entity @s[tag=ascension_3_blackhole] as @e[type=!#ds:immune,distance=..21,tag=!ds_blackhole_creator] at @s run effect give @s darkness 2 1
 
 # Damage every second
-execute if score @s ds-reg1 matches 1 as @e[type=!#ds:immune,distance=..5,tag=!ds_blackhole_creator] run damage @s 7 ds:no_cooldown by @a[tag=ds_blackhole_creator,limit=1]
+execute if score @s ds-reg1 matches 1 as @e[type=!#ds:immune,distance=..6,tag=!ds_blackhole_creator] run damage @s 10 ds:no_cooldown by @a[tag=ds_blackhole_creator,limit=1]
 
 execute if score @s ds-reg1 matches 20.. run scoreboard players set @s ds-reg1 0
 

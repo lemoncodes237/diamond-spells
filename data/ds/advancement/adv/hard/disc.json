@@ -1,0 +1,60 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:deepslate_emerald_ore"
+      },
+      "frame": "challenge",
+      "title": "Number the Discs",
+      "description": "Get Music Disc 5, 11, and 13",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/hard/beacon",
+    "criteria": {
+      "five": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:music_disc_5"
+            }
+          ]
+        }
+      },
+      "eleven": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:music_disc_11"
+            }
+          ]
+        }
+      },
+      "thirteen": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:music_disc_13"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_hard"
+    },
+    "requirements": [
+        [
+            "eleven"
+        ],
+        [
+            "five"
+        ],
+        [
+            "thirteen"
+        ]
+    ]
+  }

@@ -1,7 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "carrot_on_a_stick"
+        "id": "carrot_on_a_stick",
+        "components": {
+            "minecraft:item_model": "ds:blunder"
+          }
       },
       "title": "The Beginning",
       "description": "Get a wand using Spectral Stars",
@@ -10,7 +13,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "ds:adv/easy/gamble",
+    "parent": "ds:adv/easy/wish10",
     "criteria": {
       "impossible": {
         "trigger": "minecraft:impossible"

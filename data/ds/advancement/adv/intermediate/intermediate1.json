@@ -1,0 +1,21 @@
+{
+    "parent": "ds:adv/intermediate/froglight",
+    "criteria": {
+      "criteria": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "display": {
+      "frame": "goal",
+      "announce_to_chat": false,
+      "description": "",
+      "icon": {
+        "count": 1,
+        "id": "yellow_concrete"
+      },
+      "show_toast": false,
+      "title": "",
+      "hidden": false
+    },
+    "sends_telemetry_event": false
+  }

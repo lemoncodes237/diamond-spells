@@ -1,0 +1,49 @@
+{
+    "parent": "ds:adv/intermediate/ice",
+    "criteria": {
+      "torchflower": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:torchflower"
+            }
+          ]
+        }
+      },
+      "pitcher_plant": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:pitcher_plant"
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+      "description": "Obtain a torchflower and a pitcher plant using a Sniffer",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:torchflower"
+      },
+      "title": "Exotic Flowers",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "torchflower"
+      ],
+      [
+        "pitcher_plant"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    },
+    "sends_telemetry_event": true
+  }

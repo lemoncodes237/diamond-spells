@@ -1,0 +1,62 @@
+{
+    "parent": "ds:adv/intermediate/intermediate3",
+    "criteria": {
+      "ice": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:ice"
+            }
+          ]
+        }
+      },
+      "packed_ice": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:packed_ice"
+            }
+          ]
+        }
+      },
+      "blue_ice": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:blue_ice"
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+      "description": "Acquire ice, packed ice, and blue ice",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:packed_ice"
+      },
+      "title": "Ice Skates",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "ice"
+      ],
+      [
+        "packed_ice"
+      ],
+      [
+        "blue_ice"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    },
+    "sends_telemetry_event": true
+  }

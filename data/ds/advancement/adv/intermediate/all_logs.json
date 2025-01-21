@@ -1,10 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:oak_log"
+        "id": "minecraft:oak_planks"
       },
       "title": "Treehugger",
-      "description": "Get every type of log",
+      "description": "Get every type of wood planks",
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": true,
@@ -17,7 +17,7 @@
         "conditions": {
           "items": [
             {
-              "items": "oak_log"
+              "items": "oak_planks"
             }
           ]
         }
@@ -27,7 +27,7 @@
         "conditions": {
           "items": [
             {
-              "items": "birch_log"
+              "items": "birch_planks"
             }
           ]
         }
@@ -37,7 +37,7 @@
         "conditions": {
           "items": [
             {
-              "items": "spruce_log"
+              "items": "spruce_planks"
             }
           ]
         }
@@ -47,7 +47,7 @@
         "conditions": {
           "items": [
             {
-              "items": "jungle_log"
+              "items": "jungle_planks"
             }
           ]
         }
@@ -57,7 +57,7 @@
         "conditions": {
           "items": [
             {
-              "items": "dark_oak_log"
+              "items": "dark_oak_planks"
             }
           ]
         }
@@ -67,7 +67,7 @@
         "conditions": {
           "items": [
             {
-              "items": "acacia_log"
+              "items": "acacia_planks"
             }
           ]
         }
@@ -77,7 +77,7 @@
         "conditions": {
           "items": [
             {
-              "items": "cherry_log"
+              "items": "cherry_planks"
             }
           ]
         }
@@ -87,7 +87,7 @@
         "conditions": {
           "items": [
             {
-              "items": "pale_oak_log"
+              "items": "pale_oak_planks"
             }
           ]
         }
@@ -117,7 +117,17 @@
         "conditions": {
           "items": [
             {
-              "items": "mangrove_log"
+              "items": "mangrove_planks"
+            }
+          ]
+        }
+      },
+      "bamboo": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "bamboo_planks"
             }
           ]
         }
@@ -156,6 +166,9 @@
       ],
       [
         "warped"
+      ],
+      [
+        "bamboo"
       ]
     ],
     "rewards": {

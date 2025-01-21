@@ -5,7 +5,7 @@
       },
       "title": "Diamond Spells",
       "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
-      "description": "Welcome to Diamond Spells! Use '/trigger guide' to get started!",
+      "description": "Welcome to Diamond Spells! Use '/trigger guide' to get started! Enjoy your five free Spectral Stars!",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
@@ -14,6 +14,9 @@
       "requirement": {
         "trigger": "minecraft:tick"
       }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_easy"
     },
     "sends_telemetry_event": true
   }

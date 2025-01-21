@@ -1,0 +1,153 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:water_bucket"
+      },
+      "title": "Underwater",
+      "description": "Kill a cod, salmon, pufferfish, tropical fish, guardian, elder guardian, squid, glow squid, dolphin, turtle, axolotl, and tadpole",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/intermediate/sponge",
+    "criteria": {
+      "cod": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:cod"
+          }
+        }
+      },
+      "salmon": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:salmon"
+          }
+        }
+      },
+      "pufferfish": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:pufferfish"
+          }
+        }
+      },
+      "tropical_fish": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:tropical_fish"
+          }
+        }
+      },
+      "squid": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:squid"
+          }
+        }
+      },
+      "glow_squid": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:glow_squid"
+          }
+        }
+      },
+      "guardian": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:guardian"
+          }
+        }
+      },
+      "elder_guardian": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:elder_guardian"
+          }
+        }
+      },
+      "tadpole": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:tadpole"
+          }
+        }
+      },
+      "axolotl": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:axolotl"
+          }
+        }
+      },
+      "dolphin": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:dolphin"
+          }
+        }
+      },
+      "turtle": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:turtle"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "cod"
+      ],
+      [
+        "salmon"
+      ],
+      [
+        "pufferfish"
+      ],
+      [
+        "tropical_fish"
+      ],
+      [
+        "squid"
+      ],
+      [
+        "glow_squid"
+      ],
+      [
+        "guardian"
+      ],
+      [
+        "elder_guardian"
+      ],
+      [
+        "axolotl"
+      ],
+      [
+        "turtle"
+      ],
+      [
+        "tadpole"
+      ],
+      [
+        "dolphin"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    }
+  }

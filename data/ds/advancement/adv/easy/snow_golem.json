@@ -1,0 +1,40 @@
+{
+    "parent": "ds:adv/easy/easy2",
+    "criteria": {
+      "summoned_golem": {
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:snow_golem"
+              }
+            }
+          ]
+        },
+        "trigger": "minecraft:summoned_entity"
+      }
+    },
+    "display": {
+      "description": "Summon a Snow Golem",
+      "frame": "task",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:carved_pumpkin"
+      },
+      "title": "Do You Want to Build a Snowman?",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "summoned_golem"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    },
+    "sends_telemetry_event": true
+  }

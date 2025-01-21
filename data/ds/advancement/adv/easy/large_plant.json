@@ -1,0 +1,48 @@
+{
+    "parent": "ds:adv/easy/shears",
+    "criteria": {
+      "tall_grass": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:tall_grass"
+            }
+          ]
+        }
+      },
+      "large_fern": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:large_fern"
+            }
+          ]
+        }
+      }
+    },
+    "display": {
+      "description": "Acquire large fern and tall grass using village chests",
+      "icon": {
+        "count": 1,
+        "id": "minecraft:large_fern"
+      },
+      "title": "Villagers’ Secret Harvesting Technique",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "tall_grass"
+      ],
+      [
+        "large_fern"
+      ]
+    ],
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    },
+    "sends_telemetry_event": true
+  }

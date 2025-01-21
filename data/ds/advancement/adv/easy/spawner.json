@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "spawner"
+      },
+      "title": "No More Mobs",
+      "description": "Break a mob spawner",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/endermite",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }

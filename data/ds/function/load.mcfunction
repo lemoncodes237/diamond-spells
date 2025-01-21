@@ -12,6 +12,12 @@ scoreboard objectives add ds-rare-pity dummy
 scoreboard objectives add banner trigger
 # For stats purposes
 scoreboard objectives add ds-pulls dummy
+# Dailies
+scoreboard objectives add ds-daily dummy
+# Trigger
+scoreboard objectives add daily trigger
+# Guide Trigger
+scoreboard objectives add guide trigger
 
 # Registers
 scoreboard objectives add ds-reg1 dummy
@@ -19,6 +25,9 @@ scoreboard objectives add ds-reg2 dummy
 scoreboard objectives add ds-reg3 dummy
 scoreboard objectives add ds-reg4 dummy
 scoreboard objectives add ds-reg5 dummy
+
+# For Spawner Advancement
+scoreboard objectives add ds-spawner-broken mined:spawner
 
 # Reset
 scoreboard objectives add ds-reset dummy
@@ -110,6 +119,8 @@ scoreboard objectives add ds-soren-architect dummy
 # Singularity cooldowns
 scoreboard objectives add ds-singularity-normal dummy
 scoreboard objectives add ds-singularity-ultimate dummy
+# Player Black Hole Timer
+scoreboard objectives add ds-singularity-player dummy
 
 # Companion cooldowns
 scoreboard objectives add ds-companion-normal dummy

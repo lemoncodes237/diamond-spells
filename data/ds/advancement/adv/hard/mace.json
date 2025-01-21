@@ -1,0 +1,45 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:mace"
+      },
+      "frame": "challenge",
+      "title": "Over-Over-Overkill",
+      "description": "Deal 100 hearts of damage in a single hit using the mace",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/hard/hard",
+    "criteria": {
+        "overoveroverkill": {
+        "conditions": {
+            "damage": {
+            "type": {
+                "direct_entity": {
+                "type": "minecraft:player",
+                "equipment": {
+                    "mainhand": {
+                    "items": "minecraft:mace"
+                    }
+                }
+                },
+                "tags": [
+                {
+                    "expected": true,
+                    "id": "minecraft:mace_smash"
+                }
+                ]
+            },
+            "dealt": {
+                "min": 200
+            }
+            }
+        },
+        "trigger": "minecraft:player_hurt_entity"
+        }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_hard"
+    }
+  }

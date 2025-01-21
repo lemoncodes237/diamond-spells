@@ -16,7 +16,9 @@ function ds:spells/absolutezero/summon_ice
 function ds:spells/absolutezero/summon_ice
 function ds:spells/absolutezero/summon_ice
 function ds:spells/absolutezero/summon_ice
-function ds:spells/absolutezero/summon_ice
+
+# One ice at entity
+execute at @e[type=!#ds:immune,tag=!absolutezero_caster,distance=..15,limit=1,sort=random] run function ds:spells/absolutezero/drop_ice_at
 
 # Ascension 2: Packed Ice
 execute if score @s ds-ascension matches 2.. run function ds:spells/absolutezero/summon_ice

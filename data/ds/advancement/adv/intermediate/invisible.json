@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "barrier"
+      },
+      "title": "Disappearing Act",
+      "description": "Become invisible",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/intermediate/village",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_intermediate"
+    }
+  }

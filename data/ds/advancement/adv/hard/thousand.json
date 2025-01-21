@@ -1,0 +1,25 @@
+{
+    "display": {
+      "icon": {
+        "id": "carrot_on_a_stick",
+        "components": {
+            "minecraft:item_model": "ds:calamity"
+          }
+      },
+      "title": "Addicted",
+      "description": "Use 1000 Spectral Stars",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/hard/hard",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_hard"
+    }
+  }

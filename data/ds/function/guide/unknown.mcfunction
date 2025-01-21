@@ -1,0 +1,1 @@
+tellraw @s "Could not find the requested guide information. The guide only has six pages."

@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "netherite_axe"
+      },
+      "title": "100 Health Club",
+      "description": "Be within 100 blocks of a Warden, Ender Dragon, Wither, Iron Golem, and Ravager",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/hard/mace",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_hard"
+    }
+  }

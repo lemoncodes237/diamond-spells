@@ -1,0 +1,1 @@
+execute if entity @e[type=ender_dragon,distance=..100] if entity @e[type=warden,distance=..100] if entity @e[type=iron_golem,distance=..100] if entity @e[type=ravager,distance=..100] if entity @e[type=wither,distance=..100] run advancement grant @s only ds:adv/hard/health100

@@ -1,0 +1,29 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:painting"
+      },
+      "title": "Picasso",
+      "description": "Have 10 paintings in your inventory",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/easy10",
+    "criteria": {
+      "charcoal": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:painting",
+              "count": 10
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }

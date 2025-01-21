@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:feather"
+      },
+      "title": "Ari",
+      "description": "Tame a parrot",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "ds:adv/easy/snow_golem",
+    "criteria": {
+        "parrot": {
+        "trigger": "minecraft:tame_animal",
+        "conditions": {
+            "entity": {
+            "type": "minecraft:parrot"
+            }
+        }
+        }
+    },
+    "rewards": {
+      "function": "ds:lib/complete_easy"
+    }
+  }

@@ -2,6 +2,10 @@ scoreboard players set #ds-tick ds-reg2 0
 
 # Banner Information
 execute as @a if score @s banner matches 1.. run function ds:gacha/show_banner
+# Daily Information
+execute as @a if score @s daily matches 1.. run function ds:daily/show_daily
+# Guide
+execute as @a if score @s guide matches 1.. run function ds:guide/menu
 
 # In the Rush attack of Calamity
 execute as @a[tag=calamity_normal] at @s run function ds:spells/calamity/attack

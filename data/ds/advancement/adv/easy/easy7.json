@@ -1,0 +1,21 @@
+{
+    "parent": "ds:adv/easy/variant",
+    "criteria": {
+      "criteria": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "display": {
+      "frame": "task",
+      "announce_to_chat": false,
+      "description": "",
+      "icon": {
+        "count": 1,
+        "id": "lime_concrete"
+      },
+      "show_toast": false,
+      "title": "",
+      "hidden": false
+    },
+    "sends_telemetry_event": false
+  }

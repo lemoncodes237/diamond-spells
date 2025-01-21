@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "ds:adv/hard/hard",
+    "parent": "ds:adv/hard/shulker",
     "criteria": {
       "iron": {
         "trigger": "minecraft:player_killed_entity",

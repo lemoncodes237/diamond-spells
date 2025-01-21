@@ -1,4 +1,19 @@
-# Give 5 stars
+# Give 20 stars
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
+function ds:give/spectral_star
 function ds:give/spectral_star
 function ds:give/spectral_star
 function ds:give/spectral_star
