@@ -86,7 +86,7 @@
       "description": "Find all five types of villages",
       "icon": {
         "count": 1,
-        "id": "minecraft:sculk_shrieker"
+        "id": "minecraft:emerald_block"
       },
       "title": "Nomad",
       "frame": "goal",

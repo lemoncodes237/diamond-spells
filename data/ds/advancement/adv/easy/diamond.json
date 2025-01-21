@@ -3,7 +3,7 @@
       "icon": {
         "id": "minecraft:diamond"
       },
-      "title": "Eighth of a Star",
+      "title": "Fifth of a Star",
       "description": "Get a diamond. It is not recommended to use diamonds to craft Spectral Stars in the early game.",
       "show_toast": true,
       "announce_to_chat": true,
