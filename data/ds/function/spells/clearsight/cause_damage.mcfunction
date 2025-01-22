@@ -1,5 +1,5 @@
 scoreboard players add @s ds-reg1 1
-execute unless score @s ds-reg1 matches 5.. run return 0
+execute unless score @s ds-reg1 matches 8.. run return 0
 
 scoreboard players operation #ds-temp ds-var = @s ds-id
 
