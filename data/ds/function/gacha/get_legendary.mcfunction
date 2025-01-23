@@ -5,9 +5,6 @@ playsound ui.toast.challenge_complete master @a ~ ~ ~
 tellraw @a [{"text":""},{"selector":"@s"},{"text":" pulled a legendary wand!"}]
 scoreboard players set @s ds-pity 0
 
-advancement grant @s only ds:adv/easy/wand
-advancement grant @s only ds:adv/intermediate/legendary
-
 execute if score #ds-banner ds-var matches 1 run return run function ds:give/calamity
 execute if score #ds-banner ds-var matches 2 run return run function ds:give/clearsight
 execute if score #ds-banner ds-var matches 3 run return run function ds:give/crash_landing

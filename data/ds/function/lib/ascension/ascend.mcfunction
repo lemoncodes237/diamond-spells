@@ -14,10 +14,6 @@ execute unless score @s ds-reg4 matches 0 run return run title @s actionbar "The
 
 execute if score @s ds-reg2 matches 5.. run return run title @s actionbar "The wand in your mainhand cannot be ascended further!"
 
-# Get the rarity of weapon
-execute store result score @s ds-reg5 run data get entity @s SelectedItem.components."minecraft:custom_data".ds_rarity
-execute if score @s ds-reg5 matches 2.. if score @s ds-reg2 matches 4 run advancement grant @s only ds:adv/hard/max_ascension_legendary
-
 # Ascension tests passed, time to ascend!
 item replace entity @s weapon.mainhand with air
 item replace entity @s weapon.offhand with air
@@ -26,8 +22,6 @@ playsound item.totem.use master @s ~ ~ ~
 playsound ui.toast.challenge_complete master @s ~ ~ ~ 2
 particle totem_of_undying ~ ~1 ~ 0.5 1 0.5 0 50
 title @s actionbar "You ascended your wand!"
-
-advancement grant @s only ds:adv/intermediate/ascension
 
 execute if score @s ds-reg2 matches 0 run return run function ds:lib/ascension/ascension_1/ascend
 execute if score @s ds-reg2 matches 1 run return run function ds:lib/ascension/ascension_2/ascend

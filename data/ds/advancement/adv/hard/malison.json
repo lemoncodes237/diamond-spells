@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "ds:adv/hard/max_ascension_legendary",
+    "parent": "ds:adv/hard/hard",
     "criteria": {
       "impossible": {
         "trigger": "minecraft:impossible"

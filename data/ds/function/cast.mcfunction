@@ -13,7 +13,7 @@ execute unless score @s ds-var matches 1.. run return 0
 
 # Only 5 wands are allowed at a time.
 execute as @a store result score @s ds-reg1 run clear @s carrot_on_a_stick[custom_data~{ds_wand:1}] 0
-execute if score @s ds-reg1 matches 6.. run return run function ds:too_many_wands
+execute if score @s ds-reg1 matches 6.. unless entity @s[tag=ds_override_limit] run return run function ds:too_many_wands
 
 # Get the type of weapon
 execute store result score @s ds-var run data get entity @s SelectedItem.components."minecraft:custom_data".ds_wand_type

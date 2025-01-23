@@ -16,7 +16,7 @@
       }
     },
     "rewards": {
-      "function": "ds:lib/complete_easy"
+      "function": "ds:give/spectral_star"
     },
     "sends_telemetry_event": true
   }

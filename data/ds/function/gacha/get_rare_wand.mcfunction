@@ -4,8 +4,6 @@ execute store result score @s ds-reg1 run random value 1..2
 scoreboard players operation @s ds-reg2 = #ds-banner ds-reg2
 execute if score @s ds-reg1 matches 1 run scoreboard players operation @s ds-reg2 = #ds-banner ds-reg1
 
-advancement grant @s only ds:adv/easy/wand
-
 execute if score @s ds-reg2 matches 1 run return run function ds:give/conductors_baton
 execute if score @s ds-reg2 matches 2 run return run function ds:give/ember_core
 execute if score @s ds-reg2 matches 3 run return run function ds:give/farmers_delight
