@@ -42,3 +42,6 @@ execute as @e[type=item_display,tag=ds_tnt_piston] at @s run function ds:spells/
 
 # Absolute Zero Ultimate
 execute as @e[type=marker,tag=ds_sheer_cold] at @s run function ds:spells/absolutezero/sheer_cold
+
+# Autumn Wind Normal Attack
+execute as @e[type=!#ds:immune,tag=ds_autumnwind_swoop] at @s run function ds:spells/autumnwind/check_health

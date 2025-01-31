@@ -39,3 +39,9 @@ execute as @e[type=falling_block,tag=soren_proj] at @s run function ds:spells/so
 
 # Absolute Zero Normal Attack
 execute as @e[type=falling_block,tag=ds_absolutezero_proj] at @s run function ds:spells/absolutezero/block_damage
+
+# Autumn Wind Ultimate
+execute as @e[type=marker,tag=ds_tornado] at @s run function ds:spells/autumnwind/move_tornado
+# Autumn Wind Ascension 1
+execute as @a[tag=ds_ascension_1_windy_swoop] at @s if predicate ds:on_ground run function ds:spells/autumnwind/plunge_attack
+execute as @a[tag=ds_ascension_1_windy_swoop_not_yet] at @s unless predicate ds:on_ground run function ds:spells/autumnwind/off_ground

@@ -1,0 +1,1 @@
+$damage @s $(deal) ds:no_armor

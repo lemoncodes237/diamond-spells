@@ -19,6 +19,9 @@ scoreboard objectives add daily trigger
 # Guide Trigger
 scoreboard objectives add guide trigger
 
+# Health store
+scoreboard objectives add ds-health dummy
+
 # Registers
 scoreboard objectives add ds-reg1 dummy
 scoreboard objectives add ds-reg2 dummy
@@ -141,3 +144,13 @@ scoreboard objectives add ds-blunder-rf2 dummy
 # Absolute Zero cooldowns
 scoreboard objectives add ds-absolutezero-normal dummy
 scoreboard objectives add ds-absolutezero-ultimate dummy
+
+# Autumn Wind cooldowns
+scoreboard objectives add ds-autumnwind-normal dummy
+scoreboard objectives add ds-autumnwind-ultimate dummy
+# Windy Swoop damage modifier timer
+scoreboard objectives add ds-autumnwind-swoop dummy
+# Windy Swoop damage modifier on Ascension 5
+scoreboard objectives add ds-autumnwind-a5-rares dummy
+# Invincibility frames for Windy Swoop modifier
+scoreboard objectives add ds-autumnwind-invincibility dummy

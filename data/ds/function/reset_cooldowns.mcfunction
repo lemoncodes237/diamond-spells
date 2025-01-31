@@ -50,3 +50,5 @@ scoreboard players set @s ds-blunder-ultimate 0
 # Same for Rf2
 scoreboard players set @s ds-absolutezero-normal 0
 scoreboard players set @s ds-absolutezero-ultimate 0
+scoreboard players set @s ds-autumnwind-normal 0
+scoreboard players set @s ds-autumnwind-ultimate 0
