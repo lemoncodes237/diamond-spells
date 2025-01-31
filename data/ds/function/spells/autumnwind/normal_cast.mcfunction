@@ -19,7 +19,7 @@ execute store result score #ds-temp ds-autumnwind-a5-rares run clear @s carrot_o
 execute if score @s ds-ascension matches 4.. run effect give @s speed 3 1
 
 # Deal damage and cause them to take more future damage for 7s.
-execute as @e[type=!#ds:immune,distance=..10,tag=!autumnwind_caster] at @s run function ds:spells/autumnwind/increase_damage
+execute as @e[type=!#ds:immune,distance=..7,tag=!autumnwind_caster] at @s run function ds:spells/autumnwind/increase_damage
 
 # Ascension 1: Plunge Attack
 execute if score @s ds-ascension matches 1.. run tag @s add ds_ascension_1_windy_swoop_not_yet
