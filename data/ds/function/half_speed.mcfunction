@@ -45,3 +45,6 @@ execute as @e[type=marker,tag=ds_tornado] at @s run function ds:spells/autumnwin
 # Autumn Wind Ascension 1
 execute as @a[tag=ds_ascension_1_windy_swoop] at @s if predicate ds:on_ground run function ds:spells/autumnwind/plunge_attack
 execute as @a[tag=ds_ascension_1_windy_swoop_not_yet] at @s unless predicate ds:on_ground run function ds:spells/autumnwind/off_ground
+
+# Sautrie Ultimate Launch Attack
+execute as @e[type=marker,tag=ds_sautrie_launch] at @s run function ds:spells/sautrie/launch

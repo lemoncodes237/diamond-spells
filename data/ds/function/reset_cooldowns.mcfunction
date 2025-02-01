@@ -52,3 +52,6 @@ scoreboard players set @s ds-absolutezero-normal 0
 scoreboard players set @s ds-absolutezero-ultimate 0
 scoreboard players set @s ds-autumnwind-normal 0
 scoreboard players set @s ds-autumnwind-ultimate 0
+scoreboard players set @s ds-sautrie-normal 0
+scoreboard players set @s ds-sautrie-ultimate 0
+scoreboard players set @s ds-sautrie-hiddenmethods -1

@@ -154,3 +154,11 @@ scoreboard objectives add ds-autumnwind-swoop dummy
 scoreboard objectives add ds-autumnwind-a5-rares dummy
 # Invincibility frames for Windy Swoop modifier
 scoreboard objectives add ds-autumnwind-invincibility dummy
+
+# Sautrie cooldowns
+scoreboard objectives add ds-sautrie-normal dummy
+scoreboard objectives add ds-sautrie-ultimate dummy
+# Hidden Methods timer
+scoreboard objectives add ds-sautrie-hiddenmethods dummy
+# Hidden Methods attack counter
+scoreboard objectives add ds-sautrie-hiddencounter dummy
