@@ -52,3 +52,6 @@ execute as @a[tag=ds_nuclear] at @s run function ds:spells/hydrogen/nuclear
 
 # Blunder Ultimate
 execute as @a[tag=ds_rf2] at @s run function ds:spells/blunder/rf2
+
+# Yggdrasil Ultimate
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-lumber <= #ds-tick ds-var run tag @s remove ds_yggdrasil_lumber

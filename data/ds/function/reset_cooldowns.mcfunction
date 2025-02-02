@@ -55,3 +55,6 @@ scoreboard players set @s ds-autumnwind-ultimate 0
 scoreboard players set @s ds-sautrie-normal 0
 scoreboard players set @s ds-sautrie-ultimate 0
 scoreboard players set @s ds-sautrie-hiddenmethods -1
+scoreboard players set @s ds-yggdrasil-normal 0
+scoreboard players set @s ds-yggdrasil-ultimate 0
+scoreboard players set @s ds-yggdrasil-lumber -1

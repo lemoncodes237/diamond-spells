@@ -42,3 +42,4 @@ execute if score @s ds-var matches 19 run return run function ds:spells/blunder/
 execute if score @s ds-var matches 20 run return run function ds:spells/absolutezero/cast
 execute if score @s ds-var matches 21 run return run function ds:spells/autumnwind/cast
 execute if score @s ds-var matches 22 run return run function ds:spells/sautrie/cast
+execute if score @s ds-var matches 23 run return run function ds:spells/yggdrasil/cast

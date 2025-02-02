@@ -162,3 +162,21 @@ scoreboard objectives add ds-sautrie-ultimate dummy
 scoreboard objectives add ds-sautrie-hiddenmethods dummy
 # Hidden Methods attack counter
 scoreboard objectives add ds-sautrie-hiddencounter dummy
+
+# Yggdrasil cooldowns
+scoreboard objectives add ds-yggdrasil-normal dummy
+scoreboard objectives add ds-yggdrasil-ultimate dummy
+# Double Wood
+scoreboard objectives add ds-yggdrasil-oak mined:oak_log
+scoreboard objectives add ds-yggdrasil-birch mined:birch_log
+scoreboard objectives add ds-yggdrasil-jungle mined:jungle_log
+scoreboard objectives add ds-yggdrasil-acacia mined:acacia_log
+scoreboard objectives add ds-yggdrasil-spruce mined:spruce_log
+scoreboard objectives add ds-yggdrasil-dark_oak mined:dark_oak_log
+scoreboard objectives add ds-yggdrasil-pale_oak mined:pale_oak_log
+scoreboard objectives add ds-yggdrasil-mangrove mined:mangrove_log
+scoreboard objectives add ds-yggdrasil-cherry mined:cherry_log
+scoreboard objectives add ds-yggdrasil-warped mined:warped_stem
+scoreboard objectives add ds-yggdrasil-crimson mined:crimson_stem
+# Lumber timer
+scoreboard objectives add ds-yggdrasil-lumber dummy

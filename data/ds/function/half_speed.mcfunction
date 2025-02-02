@@ -48,3 +48,16 @@ execute as @a[tag=ds_ascension_1_windy_swoop_not_yet] at @s unless predicate ds:
 
 # Sautrie Ultimate Launch Attack
 execute as @e[type=marker,tag=ds_sautrie_launch] at @s run function ds:spells/sautrie/launch
+
+# Yggdrasil Ultimate (I can't believe I'm wasting 11 commands on this)
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-oak matches 1.. run function ds:spells/yggdrasil/oak
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-birch matches 1.. run function ds:spells/yggdrasil/birch
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-jungle matches 1.. run function ds:spells/yggdrasil/jungle
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-acacia matches 1.. run function ds:spells/yggdrasil/acacia
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-spruce matches 1.. run function ds:spells/yggdrasil/spruce
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-dark_oak matches 1.. run function ds:spells/yggdrasil/dark_oak
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-pale_oak matches 1.. run function ds:spells/yggdrasil/pale_oak
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-cherry matches 1.. run function ds:spells/yggdrasil/cherry
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-mangrove matches 1.. run function ds:spells/yggdrasil/mangrove
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-crimson matches 1.. run function ds:spells/yggdrasil/crimson
+execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-warped matches 1.. run function ds:spells/yggdrasil/warped
