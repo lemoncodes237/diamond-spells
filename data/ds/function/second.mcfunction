@@ -55,3 +55,7 @@ execute as @a[tag=ds_rf2] at @s run function ds:spells/blunder/rf2
 
 # Yggdrasil Ultimate
 execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-lumber <= #ds-tick ds-var run tag @s remove ds_yggdrasil_lumber
+
+# Armor Shred Ultimate
+execute as @e[tag=ds_armor_shred,type=!#ds:immune] run function ds:spells/shredder/shred_countdown
+execute as @a[tag=ds_armor_steal] run function ds:spells/shredder/steal_countdown

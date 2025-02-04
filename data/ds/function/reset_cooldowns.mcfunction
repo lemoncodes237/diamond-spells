@@ -58,3 +58,5 @@ scoreboard players set @s ds-sautrie-hiddenmethods -1
 scoreboard players set @s ds-yggdrasil-normal 0
 scoreboard players set @s ds-yggdrasil-ultimate 0
 scoreboard players set @s ds-yggdrasil-lumber -1
+scoreboard players set @s ds-shredder-normal 0
+scoreboard players set @s ds-shredder-ultimate 0

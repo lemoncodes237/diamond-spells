@@ -180,3 +180,11 @@ scoreboard objectives add ds-yggdrasil-warped mined:warped_stem
 scoreboard objectives add ds-yggdrasil-crimson mined:crimson_stem
 # Lumber timer
 scoreboard objectives add ds-yggdrasil-lumber dummy
+
+# Shredder cooldowns
+scoreboard objectives add ds-shredder-normal dummy
+scoreboard objectives add ds-shredder-ultimate dummy
+# Armor Shred timer
+scoreboard objectives add ds-shredder-armorshred dummy
+# Armor Steal timer
+scoreboard objectives add ds-shredder-armorsteal dummy

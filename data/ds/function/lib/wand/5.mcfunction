@@ -1,0 +1,1 @@
+function ds:spells/galaxy/cast
