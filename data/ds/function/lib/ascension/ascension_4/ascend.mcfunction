@@ -18,3 +18,8 @@ execute if score @s ds-reg1 matches 17 run return run function ds:give/companion
 execute if score @s ds-reg1 matches 18 run return run function ds:give/hydrogen_ascension_4
 execute if score @s ds-reg1 matches 19 run return run function ds:give/blunder_ascension_4
 execute if score @s ds-reg1 matches 20 run return run function ds:give/absolute_zero_ascension_4
+execute if score @s ds-reg1 matches 21 run return run function ds:give/autumn_wind_ascension_4
+execute if score @s ds-reg1 matches 22 run return run function ds:give/sautrie_ascension_4
+execute if score @s ds-reg1 matches 23 run return run function ds:give/yggdrasil_ascension_4
+execute if score @s ds-reg1 matches 24 run return run function ds:give/shredder_ascension_4
+execute if score @s ds-reg1 matches 25 run return run function ds:give/dlainnce_ascension_4

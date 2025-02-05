@@ -10,3 +10,6 @@ execute if score #ds-banner ds-reg3 matches 9 run return run function ds:gacha/w
 execute if score #ds-banner ds-reg3 matches 10 run return run function ds:gacha/wands/companion
 execute if score #ds-banner ds-reg3 matches 11 run return run function ds:gacha/wands/hydrogen
 execute if score #ds-banner ds-reg3 matches 12 run return run function ds:gacha/wands/blunder
+execute if score #ds-banner ds-reg3 matches 13 run return run function ds:gacha/wands/sautrie
+execute if score #ds-banner ds-reg3 matches 14 run return run function ds:gacha/wands/yggdrasil
+execute if score #ds-banner ds-reg3 matches 15 run return run function ds:gacha/wands/shredder

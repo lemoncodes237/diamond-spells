@@ -16,3 +16,6 @@ execute if score @s ds-reg2 matches 9 run return run function ds:give/soren
 execute if score @s ds-reg2 matches 10 run return run function ds:give/companion
 execute if score @s ds-reg2 matches 11 run return run function ds:give/hydrogen
 execute if score @s ds-reg2 matches 12 run return run function ds:give/blunder
+execute if score @s ds-reg2 matches 13 run return run function ds:give/sautrie
+execute if score @s ds-reg2 matches 14 run return run function ds:give/yggdrasil
+execute if score @s ds-reg2 matches 15 run return run function ds:give/shredder

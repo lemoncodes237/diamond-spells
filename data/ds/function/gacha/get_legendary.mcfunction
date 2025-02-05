@@ -13,3 +13,5 @@ execute if score #ds-banner ds-var matches 5 run return run function ds:give/mal
 execute if score #ds-banner ds-var matches 6 run return run function ds:give/sahd
 execute if score #ds-banner ds-var matches 7 run return run function ds:give/singularity
 execute if score #ds-banner ds-var matches 8 run return run function ds:give/absolute_zero
+execute if score #ds-banner ds-var matches 9 run return run function ds:give/autumn_wind
+execute if score #ds-banner ds-var matches 10 run return run function ds:give/dlainnce
