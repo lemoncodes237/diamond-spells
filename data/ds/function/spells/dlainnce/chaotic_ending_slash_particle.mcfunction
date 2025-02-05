@@ -1,0 +1,1 @@
+$particle dust{color:[0.5,0.0,$(color)],scale:2} ^ ^ ^ 0 0 0 0 1

@@ -60,3 +60,5 @@ scoreboard players set @s ds-yggdrasil-ultimate 0
 scoreboard players set @s ds-yggdrasil-lumber -1
 scoreboard players set @s ds-shredder-normal 0
 scoreboard players set @s ds-shredder-ultimate 0
+scoreboard players set @s ds-dlainnce-normal 0
+scoreboard players set @s ds-dlainnce-ultimate 0

@@ -61,3 +61,10 @@ execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-cherry matches 1
 execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-mangrove matches 1.. run function ds:spells/yggdrasil/mangrove
 execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-crimson matches 1.. run function ds:spells/yggdrasil/crimson
 execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-warped matches 1.. run function ds:spells/yggdrasil/warped
+
+# Dlainnce Normal Attack
+execute as @e[type=marker,tag=ds_dlainnce_surge] at @s run function ds:spells/dlainnce/surge_move
+# Dlainnce Ultimate - Chaotic Surge
+execute as @e[type=marker,tag=ds_dlainnce_chaotic_surge] at @s run function ds:spells/dlainnce/chaotic_surge_move
+# Chaos cooldown
+execute as @e[type=!#ds:immune] if score @s ds-dlainnce-chaos-cooldown matches 1.. run scoreboard players remove @s ds-dlainnce-chaos-cooldown 1

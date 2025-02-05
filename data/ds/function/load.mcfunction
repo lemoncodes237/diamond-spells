@@ -7,6 +7,7 @@ scoreboard objectives add ds-jump minecraft.custom:jump
 scoreboard objectives add ds-id dummy
 scoreboard objectives add ds-pity dummy
 scoreboard objectives add ds-rare-pity dummy
+scoreboard objectives add ds-version dummy
 
 # Banner
 scoreboard objectives add banner trigger
@@ -188,3 +189,12 @@ scoreboard objectives add ds-shredder-ultimate dummy
 scoreboard objectives add ds-shredder-armorshred dummy
 # Armor Steal timer
 scoreboard objectives add ds-shredder-armorsteal dummy
+
+# Dlainnce cooldowns
+scoreboard objectives add ds-dlainnce-normal dummy
+scoreboard objectives add ds-dlainnce-ultimate dummy
+# Chaos counter
+scoreboard objectives add ds-dlainnce-chaos dummy
+scoreboard objectives add ds-dlainnce-chaos-tick dummy
+scoreboard objectives add ds-dlainnce-chaos-cooldown dummy
+scoreboard objectives add ds-dlainnce-chaos-caster dummy

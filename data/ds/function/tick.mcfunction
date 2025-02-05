@@ -45,3 +45,6 @@ execute as @e[type=marker,tag=ds_sheer_cold] at @s run function ds:spells/absolu
 
 # Autumn Wind Normal Attack
 execute as @e[type=!#ds:immune,tag=ds_autumnwind_swoop] at @s run function ds:spells/autumnwind/check_health
+
+# Dlainnce Ultimate
+execute as @e[type=!#ds:immune] if score @s ds-dlainnce-chaos-tick matches 1.. at @s run function ds:spells/dlainnce/chaotic_ending_tick

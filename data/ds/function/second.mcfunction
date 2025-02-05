@@ -4,6 +4,8 @@ scoreboard players set #ds-tick ds-reg1 0
 
 execute as @a at @s run function ds:advancement
 
+execute as @a run function ds:version_check
+
 # Allow players to view banner information
 scoreboard players enable @a banner
 # And dailies
@@ -59,3 +61,6 @@ execute as @a[tag=ds_yggdrasil_lumber] if score @s ds-yggdrasil-lumber <= #ds-ti
 # Armor Shred Ultimate
 execute as @e[tag=ds_armor_shred,type=!#ds:immune] run function ds:spells/shredder/shred_countdown
 execute as @a[tag=ds_armor_steal] run function ds:spells/shredder/steal_countdown
+
+# Chaos decreases every second that Dlainnce is not being held
+execute as @a if score @s ds-dlainnce-chaos matches 1.. unless items entity @s weapon.mainhand carrot_on_a_stick[custom_data~{ds_wand_type:25}] run scoreboard players remove @s ds-dlainnce-chaos 1
