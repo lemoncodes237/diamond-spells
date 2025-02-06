@@ -18,3 +18,8 @@ function ds:give/sahd
 function ds:give/singularity
 function ds:give/size_shifter
 function ds:give/soren
+function ds:give/autumn_wind
+function ds:give/dlainnce
+function ds:give/sautrie
+function ds:give/shredder
+function ds:give/yggdrasil

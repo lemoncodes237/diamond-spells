@@ -18,3 +18,8 @@ function ds:give/sahd_ascension_3
 function ds:give/singularity_ascension_3
 function ds:give/size_shifter_ascension_3
 function ds:give/soren_ascension_3
+function ds:give/autumn_wind_ascension_3
+function ds:give/dlainnce_ascension_3
+function ds:give/sautrie_ascension_3
+function ds:give/shredder_ascension_3
+function ds:give/yggdrasil_ascension_3

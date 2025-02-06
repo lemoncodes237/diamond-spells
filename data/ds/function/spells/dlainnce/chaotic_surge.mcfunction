@@ -14,4 +14,6 @@ execute if score @s ds-ascension matches 3.. run tag @e[type=marker,tag=ds_dlain
 # Ascension 4: Longer Surge
 execute if score @s ds-ascension matches 4.. run scoreboard players set @e[type=marker,tag=ds_dlainnce_chaotic_surge_temp,distance=..5] ds-var -10
 
+playsound item.firecharge.use master @a ~ ~ ~ 2 0.5
+
 tag @e[type=marker,tag=ds_dlainnce_chaotic_surge_temp,distance=..5] remove ds_dlainnce_chaotic_surge_temp

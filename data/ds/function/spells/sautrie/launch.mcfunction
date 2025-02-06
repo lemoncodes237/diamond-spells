@@ -2,6 +2,8 @@ scoreboard players add @s ds-reg5 1
 
 execute unless score @s ds-reg5 matches 6.. run return 0
 
+execute if score @s ds-reg5 matches 6 run playsound block.glass.break master @a ~ ~ ~ 1 0.8
+
 scoreboard players set @s ds-reg1 0
 execute anchored eyes rotated ~-60 ~ run function ds:spells/sautrie/sword_swipe_launch
 
